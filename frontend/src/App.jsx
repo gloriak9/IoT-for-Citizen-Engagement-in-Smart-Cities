@@ -2,18 +2,19 @@ import { MapContainer, TileLayer } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
 import './App.css';
 import "@fontsource/montserrat-alternates"; // Defaults to weight 400
-
+import { MapPin, LayoutDashboard, Settings, LayoutDashboardIcon, MapPinIcon, SettingsIcon, ChartColumnIcon } from "lucide-react";
 
 function App() {
   return (
     <div className="app-container">
-      {/* Navbar */}
+      {/* Navb
+ar */}
       <nav className="navbar">
         <h1 className="logo-text"> SafeWalkMunich</h1>
         <div className="nav-links">
-          <button>Map</button>
-          <button>Dashboard</button>
-          <button>Settings</button>
+          <button><MapPinIcon/> Map</button>
+          <button><ChartColumnIcon/>Dashboard</button>
+          <button><SettingsIcon/> Settings</button>
         </div>
       </nav>
 
