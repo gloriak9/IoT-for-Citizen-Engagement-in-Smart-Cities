@@ -5,7 +5,7 @@ import './App.css';
 import "@fontsource/montserrat-alternates";
 import { MapPinIcon, ChartColumnIcon, SettingsIcon } from "lucide-react";
 import Dashboard from "./Dashboard";
-import SensorChart from "./Charts/TemperatureChart";
+import SensorChart from "./Charts/CombinedSensorChart";
 
 function Home() {
   return (
