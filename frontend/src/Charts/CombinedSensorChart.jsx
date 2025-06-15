@@ -11,7 +11,7 @@ import {
   Legend,
 } from "chart.js";
 import "chartjs-adapter-date-fns";
-import { format, parseISO, isWithinInterval, setHours, setMinutes, startOfDay, endOfDay } from "date-fns";
+import { format, parseISO, isWithinInterval, startOfDay, endOfDay } from "date-fns";
 
 ChartJS.register(
   LineElement,
@@ -59,8 +59,10 @@ const timeRanges = {
 
 const CombinedSensorChart = () => {
   const [dataSeries, setDataSeries] = useState({});
+  const [gpsLocations, setGpsLocations] = useState([]);
   const [selectedDate, setSelectedDate] = useState(format(new Date(), "yyyy-MM-dd"));
   const [selectedTimeRange, setSelectedTimeRange] = useState("all");
+  const [selectedLocation, setSelectedLocation] = useState("");
 
   useEffect(() => {
     const fetchAll = async () => {
@@ -74,21 +76,31 @@ const CombinedSensorChart = () => {
       setDataSeries(Object.fromEntries(results));
     };
 
+    const fetchGps = async () => {
+      const res = await fetch("https://gi3.gis.lrg.tum.de/frost/v1.1/Datastreams(1503)/Observations?$top=100&$orderby=phenomenonTime desc");
+      const json = await res.json();
+      const locations = json.value
+        .map(o => o.result.coordinates?.join(", "))
+        .filter((v, i, a) => v && a.indexOf(v) === i);
+      setGpsLocations(locations);
+    };
+
     fetchAll();
+    fetchGps();
   }, []);
 
   const resetFilters = () => {
     setSelectedDate(format(new Date(), "yyyy-MM-dd"));
     setSelectedTimeRange("all");
+    setSelectedLocation("");
   };
 
   const filterData = (data) => {
     if (!data) return [];
-    
+
     return data.filter(obs => {
       const date = parseISO(obs.phenomenonTime);
-      
-      // Date filter
+
       if (selectedDate) {
         const selectedDay = parseISO(selectedDate);
         const dayStart = startOfDay(selectedDay);
@@ -98,18 +110,15 @@ const CombinedSensorChart = () => {
         }
       }
 
-      // Time range filter
       if (selectedTimeRange !== "all") {
         const { start, end } = timeRanges[selectedTimeRange];
         const hour = date.getHours();
-        
+
         if (start > end) {
-          // Handle overnight ranges (e.g., night: 22:00-6:00)
           if (hour < start && hour >= end) {
             return false;
           }
         } else {
-          // Handle normal ranges (e.g., morning: 6:00-12:00)
           if (hour < start || hour >= end) {
             return false;
           }
@@ -120,12 +129,10 @@ const CombinedSensorChart = () => {
     });
   };
 
-  // Get filtered data for all series
   const filteredData = Object.fromEntries(
     Object.entries(dataSeries).map(([key, data]) => [key, filterData(data)])
   );
 
-  // Get labels from filtered data
   const labels = filteredData.temperature?.map(obs => obs.phenomenonTime) || [];
 
   const chartData = {
@@ -148,14 +155,13 @@ const CombinedSensorChart = () => {
     <div style={{ padding: "40px", maxWidth: "1000px", margin: "0 auto" }}>
       <h2 style={{ textAlign: "center", marginBottom: "10px" }}>Let's play with data!</h2>
       <p style={{ textAlign: "center", marginBottom: "30px", fontSize: "1.1rem" }}>
-      Filter sensor data by date and time to see how environmental conditions influence street lighting
+        Filter sensor data by date and time to see how environmental conditions influence street lighting
       </p>
-      
-      {/* Filters */}
-      <div style={{ 
-        display: "flex", 
-        gap: "20px", 
-        marginBottom: "20px", 
+
+      <div style={{
+        display: "flex",
+        gap: "20px",
+        marginBottom: "20px",
         justifyContent: "center",
         flexWrap: "wrap"
       }}>
@@ -168,10 +174,10 @@ const CombinedSensorChart = () => {
             style={{ padding: "5px" }}
           />
         </div>
-        
+
         <div>
           <label style={{ marginRight: "10px" }}>Time of Day:</label>
-          <select 
+          <select
             value={selectedTimeRange}
             onChange={(e) => setSelectedTimeRange(e.target.value)}
             style={{ padding: "5px" }}
@@ -179,6 +185,20 @@ const CombinedSensorChart = () => {
             <option value="all">All Day</option>
             {Object.entries(timeRanges).map(([key, { label }]) => (
               <option key={key} value={key}>{label}</option>
+            ))}
+          </select>
+        </div>
+
+        <div>
+          <label style={{ marginRight: "10px" }}>Location (lat, lon):</label>
+          <select
+            value={selectedLocation}
+            onChange={(e) => setSelectedLocation(e.target.value)}
+            style={{ padding: "5px" }}
+          >
+            <option value="">All</option>
+            {gpsLocations.map((loc, idx) => (
+              <option key={idx} value={loc}>{loc}</option>
             ))}
           </select>
         </div>
