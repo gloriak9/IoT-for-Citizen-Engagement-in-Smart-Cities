@@ -5,6 +5,7 @@ import './App.css';
 import "@fontsource/montserrat-alternates";
 import { MapPinIcon, ChartColumnIcon, SettingsIcon } from "lucide-react";
 import Dashboard from "./Dashboard";
+import SensorChart from "./Charts/TemperatureChart";
 
 function Home() {
   return (
@@ -40,6 +41,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/dashboard" element={<Dashboard />} />
+        <Route path="/sensor" element={<SensorChart />} />
       </Routes>
     </div>
   );
