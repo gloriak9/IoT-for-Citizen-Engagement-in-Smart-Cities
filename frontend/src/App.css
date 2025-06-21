@@ -21,10 +21,11 @@ body, html, #root {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  height: 40px;
 }
 
 .logo-text {
-  font-size: 2.25rem;
+  font-size: clamp(1.5rem, 2.5vw, 2.25rem);
   font-weight: bold;
 }
 
@@ -34,7 +35,7 @@ body, html, #root {
   border: none;
   color: rgb(0, 0, 0);
   cursor: pointer;
-  font-size: 1.25rem;
+  font-size: clamp(1rem, 2vw, 1.25rem);
 }
 
 .nav-links button:hover {
@@ -74,7 +75,7 @@ body, html, #root {
 }
 
 .floating-buttons button:hover {
-  background-color: #f0f0f0;
+  background-color: #aff3d3;
 }
 
 .floating-buttons .close {
@@ -85,3 +86,20 @@ body, html, #root {
 .floating-buttons .close:hover {
   background-color: #248a60;
 }
+
+@media (max-width: 600px) {
+  .logo-text {
+  font-size: clamp(1.0rem, 2.5vw, 2.25rem);
+  font-weight: bold;
+  }
+  .nav-links {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .nav-links button {
+    margin: 0.5rem 0;
+    font-size: clamp(0.5rem, 2vw, 1.25rem);
+  }
+}
+
