@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Karlsplatz Environmental Monitor</title>
+    <link rel="stylesheet" href="/dist/output.css">
+    <script src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+    <script src="https://unpkg.com/babel-standalone@7.22.5/babel.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.3/dist/chart.umd.min.js"></script>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="https://unpkg.com/mqtt@5.3.2/dist/mqtt.min.js"></script>
+    <script src="https://unpkg.com/push.js@1.1.0/bin/push.min.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <style>
+        #map { height: 300px; }
+        .tooltip { display: none; position: absolute; background: #333; color: #fff; padding: 5px; border-radius: 4px; }
+    </style>
+</head>
+<body class="bg-gray-100 font-sans">
+    <div id="root"></div>
+    <script type="text/babel">
+        const { useState, useEffect } = React;
+
+        const App = () => {
+            const [data, setData] = useState({
+                temperature: 27.15,
+                humidity: 65.76,
+                pressure: 94.51,
+                voc: 101.64,
+                noise: 65
+            });
+            const [alert, setAlert] = useState(null);
+            const [language, setLanguage] = useState('en');
+            const [feedback, setFeedback] = useState('');
+            const [leaderboard, setLeaderboard] = useState([
+                { name: 'Anna', points: 50 },
+                { name: 'Ben', points: 30 },
+                { name: 'Clara', points: 20 }
+            ]);
+
+            // TTN MQTT data fetch
+            useEffect(() => {
+                const client = mqtt.connect('mqtt://eu1.cloud.thethings.network:1883', {
+                    username: 'your-ttn-app-id',
+                    password: 'your-ttn-api-key'
+                });
+                client.on('connect', () => {
+                    client.subscribe('v3/your-ttn-app-id/devices/+/up');
+                });
+                client.on('message', (topic, message) => {
+                    const payload = JSON.parse(message.toString());
+                    const newData = payload.uplink_message.decoded_payload;
+                    setData({
+                        temperature: newData.temperature.toFixed(2),
+                        humidity: newData.humidity.toFixed(2),
+                        pressure: newData.pressure.toFixed(2),
+                        voc: newData.voc.toFixed(2),
+                        noise: newData.noise.toFixed(0)
+                    });
+                    // Alerts
+                    if (newData.voc < 50) {
+                        setAlert(language === 'en' ? 'Poor Air Quality: VOC too high!' : 'Schlechte Luftqualität: VOC zu hoch!');
+                        Push.create(language === 'en' ? 'Air Quality Alert' : 'Luftqualitätswarnung', {
+                            body: language === 'en' ? 'VOC levels high at Karlsplatz!' : 'Hohe VOC-Werte am Karlsplatz!'
+                        });
+                    } else if (newData.noise > 85) {
+                        setAlert(language === 'en' ? 'High Noise Level: >85 dB!' : 'Hoher Lärmpegel: >85 dB!');
+                        Push.create(language === 'en' ? 'Noise Alert' : 'Lärmwarnung', {
+                            body: language === 'en' ? 'Noise levels high at Karlsplatz!' : 'Hohe Lärmwerte am Karlsplatz!'
+                        });
+                    } else {
+                        setAlert(null);
+                    }
+                });
+                return () => client.end();
+            }, [language]);
+
+            // Chart setup
+            useEffect(() => {
+                const ctx = document.getElementById('envChart').getContext('2d');
+                const chart = new Chart(ctx, {
+                    type: 'line',
+                    data: {
+                        labels: ['Now', '-10s', '-20s', '-30s', '-40s'],
+                        datasets: [
+                            {
+                                label: language === 'en' ? 'VOC (kOhms)' : 'VOC (kOhms)',
+                                data: [data.voc, 100.2, 98.5, 99.8, 102.1],
+                                borderColor: '#FF6384',
+                                backgroundColor: 'rgba(255, 99, 132, 0.2)',
+                                fill: true
+                            },
+                            {
+                                label: language === 'en' ? 'Noise (dB)' : 'Lärm (dB)',
+                                data: [data.noise, 70, 80, 75, 60],
+                                borderColor: '#36A2EB',
+                                backgroundColor: 'rgba(54, 162, 235, 0.2)',
+                                fill: true
+                            }
+                        ]
+                    },
+                    options: {
+                        responsive: true,
+                        scales: {
+                            y: { beginAtZero: true, title: { display: true, text: language === 'en' ? 'Value' : 'Wert' } },
+                            x: { title: { display: true, text: language === 'en' ? 'Time' : 'Zeit' } }
+                        }
+                    }
+                });
+                return () => chart.destroy();
+            }, [data, language]);
+
+            // Map setup
+            useEffect(() => {
+                const map = L.map('map').setView([48.1391, 11.5655], 15); // Karlsplatz GPS
+                L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                    attribution: '© OpenStreetMap'
+                }).addTo(map);
+                L.marker([48.1391, 11.5655]).addTo(map)
+                    .bindPopup(`Karlsplatz: VOC ${data.voc} kOhms, Noise ${data.noise} dB`);
+            }, [data]);
+
+            const handleFeedback = async (e) => {
+                e.preventDefault();
+                // Simulate CAPTCHA and API call
+                try {
+                    const response = await fetch('https://your-api/feedback', {
+                        method: 'POST',
+                        headers: { 'Content-Type': 'application/json' },
+                        body: JSON.stringify({ feedback, gps: { lat: 48.1391, lon: 11.5655 } })
+                    });
+                    if (response.ok) {
+                        alert(language === 'en' ? 'Feedback submitted!' : 'Feedback gesendet!');
+                        setFeedback('');
+                        setLeaderboard([...leaderboard, { name: 'User', points: leaderboard[leaderboard.length - 1].points + 10 }]);
+                    }
+                } catch (error) {
+                    alert(language === 'en' ? 'Error submitting feedback' : 'Fehler beim Senden des Feedbacks');
+                }
+            };
+
+            return (
+                <div className="max-w-4xl mx-auto p-4">
+                    <header className="flex justify-between items-center mb-4">
+                        <h1 className="text-3xl font-bold">{language === 'en' ? 'Karlsplatz Environmental Monitor' : 'Karlsplatz Umweltmonitor'}</h1>
+                        <button onClick={() => setLanguage(language === 'en' ? 'de' : 'en')} className="bg-blue-500 text-white px-4 py-2 rounded">
+                            {language === 'en' ? 'Deutsch' : 'English'}
+                        </button>
+                    </header>
+
+                    {alert && (
+                        <div className="bg-red-500 text-white p-4 mb-4 rounded">
+                            {language === 'en' ? `Alert: ${alert}` : `Warnung: ${alert}`}
+                        </div>
+                    )}
+
+                    <section className="mb-8">
+                        <h2 className="text-2xl font-semibold mb-2">{language === 'en' ? 'Real-Time Data' : 'Echtzeitdaten'}</h2>
+                        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                            <div className="bg-white p-4 rounded shadow">
+                                <p><strong>{language === 'en' ? 'Temperature' : 'Temperatur'}</strong>: {data.temperature}°C
+                                    <span className="tooltip" id="temp-tip">{language === 'en' ? 'Comfortable below 30°C' : 'Komfortabel unter 30°C'}</span>
+                                </p>
+                                <p><strong>{language === 'en' ? 'Humidity' : 'Feuchtigkeit'}</strong>: {data.humidity}%
+                                    <span className="tooltip" id="hum-tip">{language === 'en' ? 'Ideal: 40–60%' : 'Ideal: 40–60%'}</span>
+                                </p>
+                                <p><strong>{language === 'en' ? 'Pressure' : 'Druck'}</strong>: {data.pressure} kPa</p>
+                                <p><strong>{language === 'en' ? 'VOC (Air Quality)' : 'VOC (Luftqualität)'}</strong>: {data.voc} kOhms
+                                    <span className="tooltip" id="voc-tip">{language === 'en' ? 'Higher kOhms = better air quality' : 'Höher kOhms = bessere Luftqualität'}</span>
+                                </p>
+                                <p><strong>{language === 'en' ? 'Noise' : 'Lärm'}</strong>: {data.noise} dB
+                                    <span className="tooltip" id="noise-tip">{language === 'en' ? 'Above 85 dB may harm hearing' : 'Über 85 dB kann Gehör schädigen'}</span>
+                                </p>
+                            </div>
+                            <div className="bg-white p-4 rounded shadow">
+                                <canvas id="envChart"></canvas>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section className="mb-8">
+                        <h2 className="text-2xl font-semibold mb-2">{language === 'en' ? 'Karlsplatz Map' : 'Karlsplatz Karte'}</h2>
+                        <div id="map" className="rounded"></div>
+                    </section>
+
+                    <section className="mb-8">
+                        <h2 className="text-2xl font-semibold mb-2">{language === 'en' ? 'Submit Feedback' : 'Feedback Senden'}</h2>
+                        <form onSubmit={handleFeedback} className="bg-white p-4 rounded shadow">
+                            <textarea
+                                value={feedback}
+                                onChange={(e) => setFeedback(e.target.value)}
+                                placeholder={language === 'en' ? 'Report an issue (e.g., fumes at 8 AM)' : 'Problem melden (z.B. Abgase um 8 Uhr)'}
+                                className="w-full p-2 border rounded mb-2"
+                                rows="4"
+                            ></textarea>
+                            <button type="submit" className="bg-green-500 text-white px-4 py-2 rounded">
+                                {language === 'en' ? 'Submit' : 'Senden'}
+                            </button>
+                        </form>
+                    </section>
+
+                    <section className="mb-8">
+                        <h2 className="text-2xl font-semibold mb-2">{language === 'en' ? 'Karlsplatz Eco Challenge' : 'Karlsplatz Öko-Herausforderung'}</h2>
+                        <p>{language === 'en' ? 'Earn MVG ticket discounts by submitting feedback or sharing on X!' : 'Verdienen Sie MVG-Ticket-Rabatte durch Feedback oder Teilen auf X!'}</p>
+                        <div className="bg-white p-4 rounded shadow">
+                            <h3 className="text-xl font-semibold mb-2">{language === 'en' ? 'Leaderboard' : 'Rangliste'}</h3>
+                            <ul>
+                                {leaderboard.map((user, index) => (
+                                    <li key={index}>{user.name}: {user.points} {language === 'en' ? 'points' : 'Punkte'}</li>
+                                ))}
+                            </ul>
+                        </div>
+                    </section>
+
+                    <footer className="text-center">
+                        <p>{language === 'en' ? 'Powered by SWM & MVG' : 'Unterstützt von SWM & MVG'}</p>
+                        <p><a href="https://www.muenchen.de" target="_blank">{language === 'en' ? 'Learn more about Munich’s Smart City' : 'Mehr über Münchens Smart City'}</a></p>
+                    </footer>
+                </div>
+            );
+        };
+
+        ReactDOM.render(<App />, document.getElementById('root'));
+    </script>
+</body>
+</html>
