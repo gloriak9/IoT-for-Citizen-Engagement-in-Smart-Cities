@@ -7,29 +7,11 @@ import './EnvironmentalRadialBarCharts.css';
 
 const EnvironmentalRadialBarCharts = () => {
   const [selectedDate, setSelectedDate] = useState(new Date().toISOString().split('T')[0]);
-  const [selectedPeriods, setSelectedPeriods] = useState([]);
-
-  // Time period definitions
-  const timePeriods = {
-    twilight: { start: 16, end: 19, label: "🌇 Evening Twilight (16:00-19:00)" },
-    night: { start: 19, end: 4, label: "🌙 Night (19:00-04:00)" },
-    earlyMorning: { start: 4, end: 8, label: "🌅 Early Morning (04:00-08:00)" }
-  };
-
-  const handlePeriodToggle = (period) => {
-    setSelectedPeriods(prev => {
-      if (prev.includes(period)) {
-        return prev.filter(p => p !== period);
-      } else {
-        return [...prev, period];
-      }
-    });
-  };
 
   return (
     <div className="environmental-radial-charts">
-      <h2 className="charts-header">Environmental Parameters by Time Period</h2>
-      <div className="controls">
+      <h2 className="charts-header">Explore the Night: Environmental Parameters Year-Round</h2>
+      <div className="controls" style={{ marginBottom: 24 }}>
         <div className="date-picker-container">
           <label htmlFor="date-picker">Select Date: </label>
           <input
@@ -39,26 +21,6 @@ const EnvironmentalRadialBarCharts = () => {
             onChange={(e) => setSelectedDate(e.target.value)}
             max={new Date().toISOString().split('T')[0]}
           />
-        </div>
-        <div className="period-selector">
-          <p>Select time periods to display:</p>
-          <div className="period-buttons">
-            {Object.entries(timePeriods).map(([key, period]) => (
-              <button
-                key={key}
-                onClick={() => handlePeriodToggle(key)}
-                className={`period-btn ${selectedPeriods.includes(key) ? 'active' : ''}`}
-              >
-                {period.label}
-              </button>
-            ))}
-          </div>
-          <p className="info-text">
-            {selectedPeriods.length === 0
-              ? "Showing all three time periods"
-              : `Showing ${selectedPeriods.length} selected period${selectedPeriods.length > 1 ? 's' : ''}`
-            }
-          </p>
         </div>
       </div>
       <div className="radial-charts-row">
