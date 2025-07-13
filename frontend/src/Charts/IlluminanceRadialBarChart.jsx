@@ -4,20 +4,20 @@ import ReactApexChart from "react-apexcharts";
 /**
  * @typedef {Object} Observation
  * @property {string} phenomenonTime - The timestamp of the observation
- * @property {number} result - The temperature value
+ * @property {number} result - The illuminance value
  */
 
 /**
- * @typedef {Object} TemperatureData
- * @property {number} twilight - Average temperature for twilight period
- * @property {number} night - Average temperature for night period
- * @property {number} earlyMorning - Average temperature for early morning period
- * @property {number} overall - Overall average temperature for 16:00-08:00 period
+ * @typedef {Object} IlluminanceData
+ * @property {number} twilight - Average illuminance for twilight period
+ * @property {number} night - Average illuminance for night period
+ * @property {number} earlyMorning - Average illuminance for early morning period
+ * @property {number} overall - Overall average illuminance for the day
  */
 
-const TemperatureRadialBarChart = ({ selectedDate }) => {
-  /** @type {TemperatureData} */
-  const [temperatureData, setTemperatureData] = useState({
+const IlluminanceRadialBarChart = ({ selectedDate }) => {
+  /** @type {IlluminanceData} */
+  const [illuminanceData, setIlluminanceData] = useState({
     twilight: 0,
     night: 0,
     earlyMorning: 0,
@@ -25,8 +25,8 @@ const TemperatureRadialBarChart = ({ selectedDate }) => {
   });
   const [loading, setLoading] = useState(false);
 
-  // Temperature endpoint
-  const TEMPERATURE_ENDPOINT = 1504;
+  // Illuminance endpoint
+  const ILLUMINANCE_ENDPOINT = 1502;
 
   // Time period definitions
   const timePeriods = {
@@ -35,11 +35,11 @@ const TemperatureRadialBarChart = ({ selectedDate }) => {
     earlyMorning: { start: 4, end: 8, label: "🌅 Early Morning (04:00-08:00)", color: "#45B7D1" }
   };
 
-  const fetchTemperatureData = async (date) => {
+  const fetchIlluminanceData = async (date) => {
     setLoading(true);
     try {
       const response = await fetch(
-        `https://gi3.gis.lrg.tum.de/frost/v1.1/Datastreams(${TEMPERATURE_ENDPOINT})/Observations?$top=1000&$orderby=phenomenonTime desc`
+        `https://gi3.gis.lrg.tum.de/frost/v1.1/Datastreams(${ILLUMINANCE_ENDPOINT})/Observations?$top=1000&$orderby=phenomenonTime desc`
       );
       const json = await response.json();
       
@@ -51,13 +51,13 @@ const TemperatureRadialBarChart = ({ selectedDate }) => {
       });
 
       if (selectedDateData.length === 0) {
-        setTemperatureData({ twilight: 0, night: 0, earlyMorning: 0, overall: 0 });
+        setIlluminanceData({ twilight: 0, night: 0, earlyMorning: 0, overall: 0 });
         setLoading(false);
         return;
       }
 
       // Calculate averages for each time period
-      /** @type {TemperatureData} */
+      /** @type {IlluminanceData} */
       const periodData = {};
       Object.keys(timePeriods).forEach(period => {
         const { start, end } = timePeriods[period];
@@ -74,7 +74,7 @@ const TemperatureRadialBarChart = ({ selectedDate }) => {
         
         if (periodObservations.length > 0) {
           const avg = periodObservations.reduce((sum, obs) => sum + obs.result, 0) / periodObservations.length;
-          periodData[period] = Number(avg.toFixed(1));
+          periodData[period] = Number(avg.toFixed(0));
         } else {
           periodData[period] = 0;
         }
@@ -82,25 +82,25 @@ const TemperatureRadialBarChart = ({ selectedDate }) => {
 
       // Calculate overall average for the entire day
       const overallAvg = selectedDateData.reduce((sum, obs) => sum + obs.result, 0) / selectedDateData.length;
-      periodData.overall = Number(overallAvg.toFixed(1));
+      periodData.overall = Number(overallAvg.toFixed(0));
 
-      setTemperatureData(periodData);
+      setIlluminanceData(periodData);
     } catch (error) {
-      console.error('Error fetching temperature data:', error);
-      setTemperatureData({ twilight: 0, night: 0, earlyMorning: 0, overall: 0 });
+      console.error('Error fetching illuminance data:', error);
+      setIlluminanceData({ twilight: 0, night: 0, earlyMorning: 0, overall: 0 });
     }
     setLoading(false);
   };
 
   useEffect(() => {
-    fetchTemperatureData(selectedDate);
+    fetchIlluminanceData(selectedDate);
   }, [selectedDate]);
 
   // Prepare chart data - always show all three periods with proper validation
   const series = [
-    temperatureData.twilight || 0,
-    temperatureData.night || 0,
-    temperatureData.earlyMorning || 0
+    illuminanceData.twilight || 0,
+    illuminanceData.night || 0,
+    illuminanceData.earlyMorning || 0
   ].map(val => {
     // Ensure no undefined or NaN values
     const numVal = Number(val);
@@ -115,7 +115,7 @@ const TemperatureRadialBarChart = ({ selectedDate }) => {
 
   const options = {
     chart: {
-      height: 350,
+      height: 300,
       type: "radialBar",
       toolbar: {
         show: false
@@ -146,7 +146,7 @@ const TemperatureRadialBarChart = ({ selectedDate }) => {
             color: '#263238',
             fontWeight: 700,
             formatter: function(val) {
-              return val + '°C';
+              return val + ' lux';
             },
             show: false // Hide individual values
           },
@@ -157,7 +157,7 @@ const TemperatureRadialBarChart = ({ selectedDate }) => {
             fontWeight: 700,
             color: '#263238',
             formatter: function () {
-              return temperatureData.overall + '°C';
+              return illuminanceData.overall + ' lux';
             }
           },
         },
@@ -171,13 +171,13 @@ const TemperatureRadialBarChart = ({ selectedDate }) => {
     legend: {
       show: true,
       position: 'bottom',
-      fontSize: '14px',
+      fontSize: '12px',
       markers: {
-        size: 12
+        size: 10
       },
       itemMargin: {
-        horizontal: 10,
-        vertical: 5
+        horizontal: 8,
+        vertical: 3
       }
     },
     tooltip: {
@@ -188,7 +188,7 @@ const TemperatureRadialBarChart = ({ selectedDate }) => {
       },
       y: {
         formatter: function(val) {
-          return val + '°C';
+          return val + ' lux';
         }
       }
     },
@@ -196,10 +196,10 @@ const TemperatureRadialBarChart = ({ selectedDate }) => {
       breakpoint: 480,
       options: {
         chart: {
-          height: 300
+          height: 250
         },
         legend: {
-          fontSize: '12px',
+          fontSize: '10px',
           position: 'bottom'
         }
       }
@@ -209,7 +209,7 @@ const TemperatureRadialBarChart = ({ selectedDate }) => {
   return (
     <div className="chart-container">
       {loading ? (
-        <div className="loading">Loading temperature data...</div>
+        <div className="loading">Loading illuminance data...</div>
       ) : (
         <ReactApexChart
           options={options}
@@ -222,4 +222,4 @@ const TemperatureRadialBarChart = ({ selectedDate }) => {
   );
 };
 
-export default TemperatureRadialBarChart;
+export default IlluminanceRadialBarChart; 

@@ -1,6 +1,5 @@
 import CombinedSensorChart from "./Charts/CombinedSensorChart";
 import EnvironmentalRadialBarCharts from "./Charts/EnvironmentalRadialBarCharts";
-import TemperatureRadialBarChart from "./Charts/TemperatureRadialBarChart";
 import "./Dashboard.css";
 
 const Dashboard = () => {
@@ -16,11 +15,6 @@ const Dashboard = () => {
         <div className="chart-card">
           <div className="chart-card-content">
             <EnvironmentalRadialBarCharts />
-          </div>
-        </div>
-        <div className="chart-card">
-          <div className="chart-card-content">
-            <TemperatureRadialBarChart />
           </div>
         </div>
       </div>

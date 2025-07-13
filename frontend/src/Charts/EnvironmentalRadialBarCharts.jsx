@@ -1,127 +1,84 @@
-import React, { useEffect, useState } from "react";
-import ReactApexChart from "react-apexcharts";
-
-const endpoints = {
-  Temperature: 1504,
-  Humidity: 1505,
-  Pressure: 1506,
-};
-
-const periods = [
-  { label: "Morning", start: 6, end: 12 },
-  { label: "Afternoon", start: 12, end: 18 },
-  { label: "Evening", start: 18, end: 22 },
-];
-
-const valueUnits = {
-  Temperature: "°C",
-  Humidity: "%",
-  Pressure: "kPa",
-};
-
-function getPeriod(hour) {
-  for (const period of periods) {
-    if (hour >= period.start && hour < period.end) return period.label;
-  }
-  return null;
-}
+import React, { useState } from "react";
+import TemperatureRadialBarChart from "./TemperatureRadialBarChart";
+import HumidityRadialBarChart from "./HumidityRadialBarChart";
+import PressureRadialBarChart from "./PressureRadialBarChart";
+import IlluminanceRadialBarChart from "./IlluminanceRadialBarChart";
+import './EnvironmentalRadialBarCharts.css';
 
 const EnvironmentalRadialBarCharts = () => {
-  const [data, setData] = useState({
-    Temperature: [0, 0, 0],
-    Humidity: [0, 0, 0],
-    Pressure: [0, 0, 0],
-  });
-  const [totals, setTotals] = useState({
-    Temperature: 0,
-    Humidity: 0,
-    Pressure: 0,
-  });
-  const [loading, setLoading] = useState(true);
+  const [selectedDate, setSelectedDate] = useState(new Date().toISOString().split('T')[0]);
+  const [selectedPeriods, setSelectedPeriods] = useState([]);
 
-  useEffect(() => {
-    const fetchData = async () => {
-      let result = {};
-      let totalResult = {};
-      for (const [key, id] of Object.entries(endpoints)) {
-        const res = await fetch(
-          `https://gi3.gis.lrg.tum.de/frost/v1.1/Datastreams(${id})/Observations?$top=500&$orderby=phenomenonTime desc`
-        );
-        const json = await res.json();
-        // Group by period
-        const periodValues = { Morning: [], Afternoon: [], Evening: [] };
-        let allValues = [];
-        json.value.forEach((obs) => {
-          const date = new Date(obs.phenomenonTime);
-          const hour = date.getHours();
-          const period = getPeriod(hour);
-          if (period) {
-            periodValues[period].push(obs.result);
-          }
-          // Only count values in the 6:00-22:00 range for total
-          if (hour >= 6 && hour < 22) {
-            allValues.push(obs.result);
-          }
-        });
-        // Calculate averages for each period
-        const averages = periods.map((p) => {
-          const vals = periodValues[p.label];
-          return vals.length > 0
-            ? Number((vals.reduce((a, b) => a + b, 0) / vals.length).toFixed(2))
-            : 0;
-        });
-        // Calculate total average for the day (6:00-22:00)
-        const totalAvg = allValues.length > 0
-          ? Number((allValues.reduce((a, b) => a + b, 0) / allValues.length).toFixed(2))
-          : 0;
-        result[key] = averages;
-        totalResult[key] = totalAvg;
+  // Time period definitions
+  const timePeriods = {
+    twilight: { start: 16, end: 19, label: "🌇 Evening Twilight (16:00-19:00)" },
+    night: { start: 19, end: 4, label: "🌙 Night (19:00-04:00)" },
+    earlyMorning: { start: 4, end: 8, label: "🌅 Early Morning (04:00-08:00)" }
+  };
+
+  const handlePeriodToggle = (period) => {
+    setSelectedPeriods(prev => {
+      if (prev.includes(period)) {
+        return prev.filter(p => p !== period);
+      } else {
+        return [...prev, period];
       }
-      setData(result);
-      setTotals(totalResult);
-      setLoading(false);
-    };
-    fetchData();
-  }, []);
-
-  if (loading) return <div>Loading environmental data...</div>;
+    });
+  };
 
   return (
-    <div style={{ display: "flex", gap: 40, justifyContent: "center" }}>
-      {Object.keys(endpoints).map((key) => (
-        <div key={key}>
-          <h3 style={{ textAlign: "center" }}>
-            {key === "Temperature" && "🌡 Temperature"}
-            {key === "Humidity" && "💧 Humidity"}
-            {key === "Pressure" && "🌬 Pressure"}
-            <span style={{ fontWeight: "normal", fontSize: "0.8em" }}> ({valueUnits[key]})</span>
-          </h3>
-          <ReactApexChart
-            options={{
-              chart: { height: 300, type: "radialBar" },
-              plotOptions: {
-                radialBar: {
-                  dataLabels: {
-                    name: { fontSize: "18px" },
-                    value: { fontSize: "14px" },
-                    total: {
-                      show: true,
-                      label: "Total Avg",
-                      formatter: function () {
-                        return totals[key];
-                      },
-                    },
-                  },
-                },
-              },
-              labels: periods.map((p) => p.label),
-            }}
-            series={data[key]}
-            type="radialBar"
-            height={300}
+    <div className="environmental-radial-charts">
+      <h2 className="charts-header">Environmental Parameters by Time Period</h2>
+      <div className="controls">
+        <div className="date-picker-container">
+          <label htmlFor="date-picker">Select Date: </label>
+          <input
+            id="date-picker"
+            type="date"
+            value={selectedDate}
+            onChange={(e) => setSelectedDate(e.target.value)}
+            max={new Date().toISOString().split('T')[0]}
           />
         </div>
-      ))}
+        <div className="period-selector">
+          <p>Select time periods to display:</p>
+          <div className="period-buttons">
+            {Object.entries(timePeriods).map(([key, period]) => (
+              <button
+                key={key}
+                onClick={() => handlePeriodToggle(key)}
+                className={`period-btn ${selectedPeriods.includes(key) ? 'active' : ''}`}
+              >
+                {period.label}
+              </button>
+            ))}
+          </div>
+          <p className="info-text">
+            {selectedPeriods.length === 0
+              ? "Showing all three time periods"
+              : `Showing ${selectedPeriods.length} selected period${selectedPeriods.length > 1 ? 's' : ''}`
+            }
+          </p>
+        </div>
+      </div>
+      <div className="radial-charts-row">
+        <div className="radial-chart-card">
+          <div className="chart-header"><h3>Temperature</h3></div>
+          <div className="chart-container"><TemperatureRadialBarChart selectedDate={selectedDate} /></div>
+        </div>
+        <div className="radial-chart-card">
+          <div className="chart-header"><h3>Humidity</h3></div>
+          <div className="chart-container"><HumidityRadialBarChart selectedDate={selectedDate} /></div>
+        </div>
+        <div className="radial-chart-card">
+          <div className="chart-header"><h3>Pressure</h3></div>
+          <div className="chart-container"><PressureRadialBarChart selectedDate={selectedDate} /></div>
+        </div>
+        <div className="radial-chart-card">
+          <div className="chart-header"><h3>Illuminance</h3></div>
+          <div className="chart-container"><IlluminanceRadialBarChart selectedDate={selectedDate} /></div>
+        </div>
+      </div>
     </div>
   );
 };
