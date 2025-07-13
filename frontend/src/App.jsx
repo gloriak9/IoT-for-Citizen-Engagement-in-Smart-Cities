@@ -4,29 +4,9 @@ import "@fontsource/montserrat-alternates";
 import { Routes, Route, Link } from "react-router-dom";
 import { ToolProvider } from "./ToolContext";
 import Home from "./Home";
-import Dashboard from "./Dashboard";
 import { MapPinIcon, ChartColumnIcon, SettingsIcon } from "lucide-react";
 import Dashboard from "./Dashboard";
 import SensorChart from "./Charts/CombinedSensorChart";
-
-function Home() {
-  return (
-    <div className="map-wrapper">
-      <MapContainer center={[48.1351, 11.5820]} zoom={12} className="map">
-        <TileLayer
-          attribution='&copy; <a href="https://osm.org/copyright">OpenStreetMap</a>'
-          url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-        />
-      </MapContainer>
-      <div className="floating-buttons">
-        <button>🔍 Search</button>
-        <button>💡 Lighting</button>
-        <button>📝 Comment</button>
-        <button className="close">✖</button>
-      </div>
-    </div>
-  );
-}
 
 function App() {
   return (
