@@ -26,19 +26,27 @@ function Home() {
         })}
 
         {/* Render saved pins */}
-        {pins.map((pin, index) => (
+        {pins.map((pin, index) => {
+          if (!pin.location || pin.location.lat == null || pin.location.lng == null) {
+            console.warn("Skipping invalid pin:", pin);
+            return null;
+         }
+
+          return (
           <Marker
             key={index}
-            position={pin.position}
+            position={[pin.location.lat, pin.location.lng]}
             icon={L.icon({
               iconUrl: "https://unpkg.com/leaflet@1.7.1/dist/images/marker-icon.png",
               iconSize: [25, 41],
               iconAnchor: [12, 41],
-            })}
-          >
-            <Popup>{pin.comment}</Popup>
-          </Marker>
-        ))}
+          })}
+      >
+        <Popup>{pin.text}</Popup>
+      </Marker>
+  );
+  })}
+
       </MapContainer>
 
       <FloatingButtons />

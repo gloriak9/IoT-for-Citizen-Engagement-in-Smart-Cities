@@ -1,25 +1,42 @@
 const express = require('express');
+const multer = require('multer');
+const Feedback = require('../models/Feedback'); // adjust path
+
 const router = express.Router();
-const Feedback = require('../models/Feedback.js');
 
-// POST feedback
-router.post('/', async (req, res) => {
-  try {
-    const feedback = new Feedback(req.body);
-    const saved = await feedback.save();
-    res.status(201).json(saved);
-  } catch (err) {
-    res.status(400).json({ error: err.message });
-  }
-});
+// Only handle text fields, no file upload for now
+const upload = multer({ storage: multer.memoryStorage() });
 
-// GET all feedback
-router.get('/', async (req, res) => {
+router.post('/', upload.none(), async (req, res) => {
   try {
-    const feedbacks = await Feedback.find();
-    res.json(feedbacks);
+    const {
+      category,
+      locationDescription,
+      timeOfIncident,
+      severity,
+      description,
+      name,
+      email,
+      appVersion
+    } = req.body;
+
+    const feedback = new Feedback({
+      category,
+      locationDescription,
+      timeOfIncident: timeOfIncident ? new Date(timeOfIncident) : undefined,
+      severity,
+      description,
+      name,
+      email,
+      appVersion
+    });
+
+    await feedback.save();
+    res.status(201).json({ message: 'Feedback saved successfully', feedback });
+
   } catch (err) {
-    res.status(500).json({ error: err.message });
+    console.error("Save failed:", err.message, err.errors);
+    res.status(400).json({ error: err.message, details: err.errors });
   }
 });
 

@@ -15,10 +15,31 @@ function CommentTool() {
       }
     },
     click(e) {
-      if (activeTool === "comment" && tempPos) {
+      if (activeTool === "comment") {
         const comment = prompt("Enter your comment:");
         if (comment) {
-          addPin({ position: tempPos, comment });
+          const pinData = {
+            text: comment,
+            location: {
+              lat: tempPos.lat,
+              lng: tempPos.lng
+           }
+          };
+          console.log('pinData before sending:', pinData);
+          console.log('Sending pinData:', pinData);
+          addPin(pinData);
+          fetch("http://localhost:5000/api/comments", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify(pinData),
+          })
+            .then((res) => res.json())
+            .then((data) => {
+              console.log("Comment saved to DB:", data);
+            })
+            .catch((err) => {
+              console.error("Failed to save comment:", err);
+            });
         }
         setTempPos(null);
         setActiveTool(null);

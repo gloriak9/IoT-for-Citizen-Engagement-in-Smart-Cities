@@ -1,0 +1,3122 @@
+[
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238739006)",
+    "@iot.id": 238739006,
+    "phenomenonTime": "2025-07-18T19:57:58.594Z",
+    "resultTime": "2025-07-18T19:57:58.594Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1291,
+      "longitude": 11.6765
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238739006)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238739006)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238739009)",
+    "@iot.id": 238739009,
+    "phenomenonTime": "2025-07-18T19:57:58.594Z",
+    "resultTime": "2025-07-18T19:57:58.594Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1291,
+      "longitude": 11.6765
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238739009)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238739009)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238739094)",
+    "@iot.id": 238739094,
+    "phenomenonTime": "2025-07-18T19:58:36.244Z",
+    "resultTime": "2025-07-18T19:58:36.244Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1288,
+      "longitude": 11.6761
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238739094)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238739094)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238739095)",
+    "@iot.id": 238739095,
+    "phenomenonTime": "2025-07-18T19:58:36.244Z",
+    "resultTime": "2025-07-18T19:58:36.244Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1288,
+      "longitude": 11.6761
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238739095)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238739095)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238739239)",
+    "@iot.id": 238739239,
+    "phenomenonTime": "2025-07-18T19:59:51.567Z",
+    "resultTime": "2025-07-18T19:59:51.567Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.128,
+      "longitude": 11.6753
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238739239)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238739239)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238739247)",
+    "@iot.id": 238739247,
+    "phenomenonTime": "2025-07-18T19:59:51.567Z",
+    "resultTime": "2025-07-18T19:59:51.567Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.128,
+      "longitude": 11.6753
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238739247)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238739247)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238739386)",
+    "@iot.id": 238739386,
+    "phenomenonTime": "2025-07-18T20:01:06.905Z",
+    "resultTime": "2025-07-18T20:01:06.905Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1278,
+      "longitude": 11.6747
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238739386)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238739386)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238739388)",
+    "@iot.id": 238739388,
+    "phenomenonTime": "2025-07-18T20:01:06.905Z",
+    "resultTime": "2025-07-18T20:01:06.905Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1278,
+      "longitude": 11.6747
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238739388)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238739388)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238739452)",
+    "@iot.id": 238739452,
+    "phenomenonTime": "2025-07-18T20:01:44.586Z",
+    "resultTime": "2025-07-18T20:01:44.586Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1278,
+      "longitude": 11.6745
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238739452)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238739452)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238739459)",
+    "@iot.id": 238739459,
+    "phenomenonTime": "2025-07-18T20:01:44.586Z",
+    "resultTime": "2025-07-18T20:01:44.586Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1278,
+      "longitude": 11.6745
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238739459)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238739459)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238739518)",
+    "@iot.id": 238739518,
+    "phenomenonTime": "2025-07-18T20:02:22.222Z",
+    "resultTime": "2025-07-18T20:02:22.222Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1278,
+      "longitude": 11.6745
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238739518)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238739518)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238739519)",
+    "@iot.id": 238739519,
+    "phenomenonTime": "2025-07-18T20:02:22.222Z",
+    "resultTime": "2025-07-18T20:02:22.222Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1278,
+      "longitude": 11.6745
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238739519)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238739519)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238739588)",
+    "@iot.id": 238739588,
+    "phenomenonTime": "2025-07-18T20:02:59.965Z",
+    "resultTime": "2025-07-18T20:02:59.965Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1278,
+      "longitude": 11.6745
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238739588)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238739588)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238739590)",
+    "@iot.id": 238739590,
+    "phenomenonTime": "2025-07-18T20:02:59.965Z",
+    "resultTime": "2025-07-18T20:02:59.965Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1278,
+      "longitude": 11.6745
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238739590)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238739590)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238739695)",
+    "@iot.id": 238739695,
+    "phenomenonTime": "2025-07-18T20:03:37.576Z",
+    "resultTime": "2025-07-18T20:03:37.576Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1278,
+      "longitude": 11.6745
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238739695)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238739695)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238739700)",
+    "@iot.id": 238739700,
+    "phenomenonTime": "2025-07-18T20:03:37.576Z",
+    "resultTime": "2025-07-18T20:03:37.576Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1278,
+      "longitude": 11.6745
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238739700)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238739700)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238739757)",
+    "@iot.id": 238739757,
+    "phenomenonTime": "2025-07-18T20:04:15.268Z",
+    "resultTime": "2025-07-18T20:04:15.268Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1278,
+      "longitude": 11.6745
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238739757)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238739757)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238739764)",
+    "@iot.id": 238739764,
+    "phenomenonTime": "2025-07-18T20:04:15.268Z",
+    "resultTime": "2025-07-18T20:04:15.268Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1278,
+      "longitude": 11.6745
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238739764)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238739764)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238739912)",
+    "@iot.id": 238739912,
+    "phenomenonTime": "2025-07-18T20:05:30.573Z",
+    "resultTime": "2025-07-18T20:05:30.573Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1278,
+      "longitude": 11.6746
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238739912)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238739912)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238739914)",
+    "@iot.id": 238739914,
+    "phenomenonTime": "2025-07-18T20:05:30.573Z",
+    "resultTime": "2025-07-18T20:05:30.573Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1278,
+      "longitude": 11.6746
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238739914)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238739914)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238739985)",
+    "@iot.id": 238739985,
+    "phenomenonTime": "2025-07-18T20:06:08.349Z",
+    "resultTime": "2025-07-18T20:06:08.349Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1278,
+      "longitude": 11.6745
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238739985)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238739985)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238739987)",
+    "@iot.id": 238739987,
+    "phenomenonTime": "2025-07-18T20:06:08.349Z",
+    "resultTime": "2025-07-18T20:06:08.349Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1278,
+      "longitude": 11.6745
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238739987)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238739987)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238740043)",
+    "@iot.id": 238740043,
+    "phenomenonTime": "2025-07-18T20:06:46.041Z",
+    "resultTime": "2025-07-18T20:06:46.041Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1278,
+      "longitude": 11.6745
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238740043)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238740043)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238740048)",
+    "@iot.id": 238740048,
+    "phenomenonTime": "2025-07-18T20:06:46.041Z",
+    "resultTime": "2025-07-18T20:06:46.041Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1278,
+      "longitude": 11.6745
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238740048)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238740048)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238740132)",
+    "@iot.id": 238740132,
+    "phenomenonTime": "2025-07-18T20:07:23.646Z",
+    "resultTime": "2025-07-18T20:07:23.646Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1278,
+      "longitude": 11.6745
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238740132)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238740132)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238740133)",
+    "@iot.id": 238740133,
+    "phenomenonTime": "2025-07-18T20:07:23.646Z",
+    "resultTime": "2025-07-18T20:07:23.646Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1278,
+      "longitude": 11.6745
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238740133)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238740133)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238740198)",
+    "@iot.id": 238740198,
+    "phenomenonTime": "2025-07-18T20:08:01.361Z",
+    "resultTime": "2025-07-18T20:08:01.361Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1278,
+      "longitude": 11.6746
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238740198)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238740198)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238740201)",
+    "@iot.id": 238740201,
+    "phenomenonTime": "2025-07-18T20:08:01.361Z",
+    "resultTime": "2025-07-18T20:08:01.361Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1278,
+      "longitude": 11.6746
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238740201)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238740201)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238740269)",
+    "@iot.id": 238740269,
+    "phenomenonTime": "2025-07-18T20:08:39.067Z",
+    "resultTime": "2025-07-18T20:08:39.067Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1278,
+      "longitude": 11.6746
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238740269)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238740269)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238740271)",
+    "@iot.id": 238740271,
+    "phenomenonTime": "2025-07-18T20:08:39.067Z",
+    "resultTime": "2025-07-18T20:08:39.067Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1278,
+      "longitude": 11.6746
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238740271)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238740271)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238740369)",
+    "@iot.id": 238740369,
+    "phenomenonTime": "2025-07-18T20:09:16.6Z",
+    "resultTime": "2025-07-18T20:09:16.6Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1278,
+      "longitude": 11.6746
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238740369)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238740369)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238740370)",
+    "@iot.id": 238740370,
+    "phenomenonTime": "2025-07-18T20:09:16.6Z",
+    "resultTime": "2025-07-18T20:09:16.6Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1278,
+      "longitude": 11.6746
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238740370)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238740370)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238740434)",
+    "@iot.id": 238740434,
+    "phenomenonTime": "2025-07-18T20:09:54.376Z",
+    "resultTime": "2025-07-18T20:09:54.376Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1278,
+      "longitude": 11.6746
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238740434)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238740434)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238740437)",
+    "@iot.id": 238740437,
+    "phenomenonTime": "2025-07-18T20:09:54.376Z",
+    "resultTime": "2025-07-18T20:09:54.376Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1278,
+      "longitude": 11.6746
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238740437)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238740437)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238741177)",
+    "@iot.id": 238741177,
+    "phenomenonTime": "2025-07-18T20:16:49.146Z",
+    "resultTime": "2025-07-18T20:16:49.146Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1278,
+      "longitude": 11.6745
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238741177)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238741177)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238741179)",
+    "@iot.id": 238741179,
+    "phenomenonTime": "2025-07-18T20:16:49.146Z",
+    "resultTime": "2025-07-18T20:16:49.146Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1278,
+      "longitude": 11.6745
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238741179)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238741179)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238741251)",
+    "@iot.id": 238741251,
+    "phenomenonTime": "2025-07-18T20:17:26.852Z",
+    "resultTime": "2025-07-18T20:17:26.852Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1278,
+      "longitude": 11.6745
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238741251)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238741251)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238741254)",
+    "@iot.id": 238741254,
+    "phenomenonTime": "2025-07-18T20:17:26.852Z",
+    "resultTime": "2025-07-18T20:17:26.852Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1278,
+      "longitude": 11.6745
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238741254)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238741254)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238741323)",
+    "@iot.id": 238741323,
+    "phenomenonTime": "2025-07-18T20:18:04.344Z",
+    "resultTime": "2025-07-18T20:18:04.344Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1278,
+      "longitude": 11.6746
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238741323)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238741323)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238741330)",
+    "@iot.id": 238741330,
+    "phenomenonTime": "2025-07-18T20:18:04.344Z",
+    "resultTime": "2025-07-18T20:18:04.344Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1278,
+      "longitude": 11.6746
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238741330)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238741330)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238741371)",
+    "@iot.id": 238741371,
+    "phenomenonTime": "2025-07-18T20:18:42.047Z",
+    "resultTime": "2025-07-18T20:18:42.047Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1278,
+      "longitude": 11.6746
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238741371)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238741371)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238741374)",
+    "@iot.id": 238741374,
+    "phenomenonTime": "2025-07-18T20:18:42.047Z",
+    "resultTime": "2025-07-18T20:18:42.047Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1278,
+      "longitude": 11.6746
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238741374)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238741374)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238741458)",
+    "@iot.id": 238741458,
+    "phenomenonTime": "2025-07-18T20:19:19.597Z",
+    "resultTime": "2025-07-18T20:19:19.597Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1278,
+      "longitude": 11.6745
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238741458)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238741458)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238741461)",
+    "@iot.id": 238741461,
+    "phenomenonTime": "2025-07-18T20:19:19.597Z",
+    "resultTime": "2025-07-18T20:19:19.597Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1278,
+      "longitude": 11.6745
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238741461)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238741461)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238741543)",
+    "@iot.id": 238741543,
+    "phenomenonTime": "2025-07-18T20:19:57.296Z",
+    "resultTime": "2025-07-18T20:19:57.296Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1278,
+      "longitude": 11.6744
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238741543)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238741543)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238741544)",
+    "@iot.id": 238741544,
+    "phenomenonTime": "2025-07-18T20:19:57.296Z",
+    "resultTime": "2025-07-18T20:19:57.296Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1278,
+      "longitude": 11.6744
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238741544)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238741544)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238741618)",
+    "@iot.id": 238741618,
+    "phenomenonTime": "2025-07-18T20:20:35.026Z",
+    "resultTime": "2025-07-18T20:20:35.026Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1279,
+      "longitude": 11.6743
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238741618)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238741618)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238741620)",
+    "@iot.id": 238741620,
+    "phenomenonTime": "2025-07-18T20:20:35.026Z",
+    "resultTime": "2025-07-18T20:20:35.026Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1279,
+      "longitude": 11.6743
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238741620)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238741620)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238741719)",
+    "@iot.id": 238741719,
+    "phenomenonTime": "2025-07-18T20:21:12.611Z",
+    "resultTime": "2025-07-18T20:21:12.611Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1282,
+      "longitude": 11.6746
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238741719)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238741719)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238741721)",
+    "@iot.id": 238741721,
+    "phenomenonTime": "2025-07-18T20:21:12.611Z",
+    "resultTime": "2025-07-18T20:21:12.611Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1282,
+      "longitude": 11.6746
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238741721)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238741721)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238741810)",
+    "@iot.id": 238741810,
+    "phenomenonTime": "2025-07-18T20:21:50.364Z",
+    "resultTime": "2025-07-18T20:21:50.364Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1285,
+      "longitude": 11.6748
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238741810)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238741810)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238741811)",
+    "@iot.id": 238741811,
+    "phenomenonTime": "2025-07-18T20:21:50.364Z",
+    "resultTime": "2025-07-18T20:21:50.364Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1285,
+      "longitude": 11.6748
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238741811)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238741811)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238741901)",
+    "@iot.id": 238741901,
+    "phenomenonTime": "2025-07-18T20:22:28.069Z",
+    "resultTime": "2025-07-18T20:22:28.069Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1287,
+      "longitude": 11.6751
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238741901)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238741901)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238741908)",
+    "@iot.id": 238741908,
+    "phenomenonTime": "2025-07-18T20:22:28.069Z",
+    "resultTime": "2025-07-18T20:22:28.069Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1287,
+      "longitude": 11.6751
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238741908)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238741908)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238741987)",
+    "@iot.id": 238741987,
+    "phenomenonTime": "2025-07-18T20:23:05.636Z",
+    "resultTime": "2025-07-18T20:23:05.636Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1287,
+      "longitude": 11.6751
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238741987)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238741987)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238741990)",
+    "@iot.id": 238741990,
+    "phenomenonTime": "2025-07-18T20:23:05.636Z",
+    "resultTime": "2025-07-18T20:23:05.636Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1287,
+      "longitude": 11.6751
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238741990)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238741990)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238742028)",
+    "@iot.id": 238742028,
+    "phenomenonTime": "2025-07-18T20:23:43.431Z",
+    "resultTime": "2025-07-18T20:23:43.431Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1289,
+      "longitude": 11.6753
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238742028)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238742028)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238742035)",
+    "@iot.id": 238742035,
+    "phenomenonTime": "2025-07-18T20:23:43.431Z",
+    "resultTime": "2025-07-18T20:23:43.431Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1289,
+      "longitude": 11.6753
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238742035)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238742035)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238742138)",
+    "@iot.id": 238742138,
+    "phenomenonTime": "2025-07-18T20:24:21.141Z",
+    "resultTime": "2025-07-18T20:24:21.141Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1289,
+      "longitude": 11.6754
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238742138)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238742138)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238742139)",
+    "@iot.id": 238742139,
+    "phenomenonTime": "2025-07-18T20:24:21.141Z",
+    "resultTime": "2025-07-18T20:24:21.141Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1289,
+      "longitude": 11.6754
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238742139)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238742139)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238742271)",
+    "@iot.id": 238742271,
+    "phenomenonTime": "2025-07-18T20:25:35.594Z",
+    "resultTime": "2025-07-18T20:25:35.594Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1291,
+      "longitude": 11.6763
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238742271)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238742271)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238742275)",
+    "@iot.id": 238742275,
+    "phenomenonTime": "2025-07-18T20:25:35.594Z",
+    "resultTime": "2025-07-18T20:25:35.594Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1291,
+      "longitude": 11.6763
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238742275)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238742275)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238742314)",
+    "@iot.id": 238742314,
+    "phenomenonTime": "2025-07-18T20:26:13.307Z",
+    "resultTime": "2025-07-18T20:26:13.307Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.129,
+      "longitude": 11.6765
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238742314)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238742314)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238742315)",
+    "@iot.id": 238742315,
+    "phenomenonTime": "2025-07-18T20:26:13.307Z",
+    "resultTime": "2025-07-18T20:26:13.307Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.129,
+      "longitude": 11.6765
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238742315)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238742315)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238742391)",
+    "@iot.id": 238742391,
+    "phenomenonTime": "2025-07-18T20:26:50.814Z",
+    "resultTime": "2025-07-18T20:26:50.814Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1288,
+      "longitude": 11.6769
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238742391)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238742391)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238742400)",
+    "@iot.id": 238742400,
+    "phenomenonTime": "2025-07-18T20:26:50.814Z",
+    "resultTime": "2025-07-18T20:26:50.814Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1288,
+      "longitude": 11.6769
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238742400)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238742400)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238742485)",
+    "@iot.id": 238742485,
+    "phenomenonTime": "2025-07-18T20:27:28.572Z",
+    "resultTime": "2025-07-18T20:27:28.572Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1286,
+      "longitude": 11.6773
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238742485)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238742485)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238742487)",
+    "@iot.id": 238742487,
+    "phenomenonTime": "2025-07-18T20:27:28.572Z",
+    "resultTime": "2025-07-18T20:27:28.572Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1286,
+      "longitude": 11.6773
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238742487)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238742487)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238742576)",
+    "@iot.id": 238742576,
+    "phenomenonTime": "2025-07-18T20:28:06.349Z",
+    "resultTime": "2025-07-18T20:28:06.349Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1285,
+      "longitude": 11.6777
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238742576)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238742576)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238742577)",
+    "@iot.id": 238742577,
+    "phenomenonTime": "2025-07-18T20:28:06.349Z",
+    "resultTime": "2025-07-18T20:28:06.349Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1285,
+      "longitude": 11.6777
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238742577)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238742577)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238742635)",
+    "@iot.id": 238742635,
+    "phenomenonTime": "2025-07-18T20:28:43.951Z",
+    "resultTime": "2025-07-18T20:28:43.951Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1283,
+      "longitude": 11.6781
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238742635)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238742635)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238742640)",
+    "@iot.id": 238742640,
+    "phenomenonTime": "2025-07-18T20:28:43.951Z",
+    "resultTime": "2025-07-18T20:28:43.951Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1283,
+      "longitude": 11.6781
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238742640)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238742640)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238742800)",
+    "@iot.id": 238742800,
+    "phenomenonTime": "2025-07-18T20:29:59.634Z",
+    "resultTime": "2025-07-18T20:29:59.634Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.128,
+      "longitude": 11.6788
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238742800)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238742800)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238742803)",
+    "@iot.id": 238742803,
+    "phenomenonTime": "2025-07-18T20:29:59.634Z",
+    "resultTime": "2025-07-18T20:29:59.634Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.128,
+      "longitude": 11.6788
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238742803)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238742803)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238742884)",
+    "@iot.id": 238742884,
+    "phenomenonTime": "2025-07-18T20:30:37.389Z",
+    "resultTime": "2025-07-18T20:30:37.389Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1278,
+      "longitude": 11.6792
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238742884)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238742884)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238742887)",
+    "@iot.id": 238742887,
+    "phenomenonTime": "2025-07-18T20:30:37.389Z",
+    "resultTime": "2025-07-18T20:30:37.389Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1278,
+      "longitude": 11.6792
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238742887)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238742887)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238742948)",
+    "@iot.id": 238742948,
+    "phenomenonTime": "2025-07-18T20:31:15.162Z",
+    "resultTime": "2025-07-18T20:31:15.162Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1277,
+      "longitude": 11.6795
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238742948)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238742948)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238742951)",
+    "@iot.id": 238742951,
+    "phenomenonTime": "2025-07-18T20:31:15.162Z",
+    "resultTime": "2025-07-18T20:31:15.162Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1277,
+      "longitude": 11.6795
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238742951)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238742951)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238743093)",
+    "@iot.id": 238743093,
+    "phenomenonTime": "2025-07-18T20:32:30.775Z",
+    "resultTime": "2025-07-18T20:32:30.775Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1273,
+      "longitude": 11.6793
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238743093)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238743093)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238743094)",
+    "@iot.id": 238743094,
+    "phenomenonTime": "2025-07-18T20:32:30.775Z",
+    "resultTime": "2025-07-18T20:32:30.775Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1273,
+      "longitude": 11.6793
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238743094)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238743094)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238743170)",
+    "@iot.id": 238743170,
+    "phenomenonTime": "2025-07-18T20:33:08.634Z",
+    "resultTime": "2025-07-18T20:33:08.634Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.127,
+      "longitude": 11.6791
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238743170)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238743170)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238743177)",
+    "@iot.id": 238743177,
+    "phenomenonTime": "2025-07-18T20:33:08.634Z",
+    "resultTime": "2025-07-18T20:33:08.634Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.127,
+      "longitude": 11.6791
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238743177)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238743177)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238743202)",
+    "@iot.id": 238743202,
+    "phenomenonTime": "2025-07-18T20:33:46.357Z",
+    "resultTime": "2025-07-18T20:33:46.357Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1268,
+      "longitude": 11.6788
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238743202)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238743202)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238743206)",
+    "@iot.id": 238743206,
+    "phenomenonTime": "2025-07-18T20:33:46.357Z",
+    "resultTime": "2025-07-18T20:33:46.357Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1268,
+      "longitude": 11.6788
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238743206)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238743206)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238743314)",
+    "@iot.id": 238743314,
+    "phenomenonTime": "2025-07-18T20:34:23.614Z",
+    "resultTime": "2025-07-18T20:34:23.614Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1266,
+      "longitude": 11.6786
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238743314)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238743314)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238743315)",
+    "@iot.id": 238743315,
+    "phenomenonTime": "2025-07-18T20:34:23.614Z",
+    "resultTime": "2025-07-18T20:34:23.614Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1266,
+      "longitude": 11.6786
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238743315)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238743315)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238743397)",
+    "@iot.id": 238743397,
+    "phenomenonTime": "2025-07-18T20:35:01.359Z",
+    "resultTime": "2025-07-18T20:35:01.359Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1264,
+      "longitude": 11.6784
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238743397)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238743397)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238743402)",
+    "@iot.id": 238743402,
+    "phenomenonTime": "2025-07-18T20:35:01.359Z",
+    "resultTime": "2025-07-18T20:35:01.359Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1264,
+      "longitude": 11.6784
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238743402)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238743402)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238743534)",
+    "@iot.id": 238743534,
+    "phenomenonTime": "2025-07-18T20:36:16.892Z",
+    "resultTime": "2025-07-18T20:36:16.892Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1261,
+      "longitude": 11.6779
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238743534)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238743534)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238743537)",
+    "@iot.id": 238743537,
+    "phenomenonTime": "2025-07-18T20:36:16.892Z",
+    "resultTime": "2025-07-18T20:36:16.892Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1261,
+      "longitude": 11.6779
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238743537)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238743537)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238743614)",
+    "@iot.id": 238743614,
+    "phenomenonTime": "2025-07-18T20:36:54.705Z",
+    "resultTime": "2025-07-18T20:36:54.705Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1263,
+      "longitude": 11.6776
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238743614)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238743614)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238743615)",
+    "@iot.id": 238743615,
+    "phenomenonTime": "2025-07-18T20:36:54.705Z",
+    "resultTime": "2025-07-18T20:36:54.705Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1263,
+      "longitude": 11.6776
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238743615)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238743615)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238743692)",
+    "@iot.id": 238743692,
+    "phenomenonTime": "2025-07-18T20:37:32.427Z",
+    "resultTime": "2025-07-18T20:37:32.427Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1265,
+      "longitude": 11.6772
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238743692)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238743692)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238743697)",
+    "@iot.id": 238743697,
+    "phenomenonTime": "2025-07-18T20:37:32.427Z",
+    "resultTime": "2025-07-18T20:37:32.427Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1265,
+      "longitude": 11.6772
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238743697)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238743697)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238743784)",
+    "@iot.id": 238743784,
+    "phenomenonTime": "2025-07-18T20:38:10.148Z",
+    "resultTime": "2025-07-18T20:38:10.148Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1265,
+      "longitude": 11.6771
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238743784)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238743784)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238743789)",
+    "@iot.id": 238743789,
+    "phenomenonTime": "2025-07-18T20:38:10.148Z",
+    "resultTime": "2025-07-18T20:38:10.148Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1265,
+      "longitude": 11.6771
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238743789)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238743789)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238743820)",
+    "@iot.id": 238743820,
+    "phenomenonTime": "2025-07-18T20:38:47.962Z",
+    "resultTime": "2025-07-18T20:38:47.962Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1265,
+      "longitude": 11.6771
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238743820)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238743820)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238743825)",
+    "@iot.id": 238743825,
+    "phenomenonTime": "2025-07-18T20:38:47.962Z",
+    "resultTime": "2025-07-18T20:38:47.962Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1265,
+      "longitude": 11.6771
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238743825)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238743825)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238743934)",
+    "@iot.id": 238743934,
+    "phenomenonTime": "2025-07-18T20:39:25.754Z",
+    "resultTime": "2025-07-18T20:39:25.754Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1265,
+      "longitude": 11.6771
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238743934)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238743934)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238743936)",
+    "@iot.id": 238743936,
+    "phenomenonTime": "2025-07-18T20:39:25.754Z",
+    "resultTime": "2025-07-18T20:39:25.754Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1265,
+      "longitude": 11.6771
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238743936)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238743936)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238744004)",
+    "@iot.id": 238744004,
+    "phenomenonTime": "2025-07-18T20:40:03.524Z",
+    "resultTime": "2025-07-18T20:40:03.524Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1265,
+      "longitude": 11.677
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238744004)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238744004)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238744009)",
+    "@iot.id": 238744009,
+    "phenomenonTime": "2025-07-18T20:40:03.524Z",
+    "resultTime": "2025-07-18T20:40:03.524Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1265,
+      "longitude": 11.677
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238744009)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238744009)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238744097)",
+    "@iot.id": 238744097,
+    "phenomenonTime": "2025-07-18T20:40:41.294Z",
+    "resultTime": "2025-07-18T20:40:41.294Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1267,
+      "longitude": 11.6766
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238744097)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238744097)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238744100)",
+    "@iot.id": 238744100,
+    "phenomenonTime": "2025-07-18T20:40:41.294Z",
+    "resultTime": "2025-07-18T20:40:41.294Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1267,
+      "longitude": 11.6766
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238744100)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238744100)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238744221)",
+    "@iot.id": 238744221,
+    "phenomenonTime": "2025-07-18T20:41:56.846Z",
+    "resultTime": "2025-07-18T20:41:56.846Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.127,
+      "longitude": 11.6759
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238744221)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238744221)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238744227)",
+    "@iot.id": 238744227,
+    "phenomenonTime": "2025-07-18T20:41:56.846Z",
+    "resultTime": "2025-07-18T20:41:56.846Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.127,
+      "longitude": 11.6759
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238744227)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238744227)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238744298)",
+    "@iot.id": 238744298,
+    "phenomenonTime": "2025-07-18T20:42:34.351Z",
+    "resultTime": "2025-07-18T20:42:34.351Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.127,
+      "longitude": 11.6757
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238744298)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238744298)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238744302)",
+    "@iot.id": 238744302,
+    "phenomenonTime": "2025-07-18T20:42:34.351Z",
+    "resultTime": "2025-07-18T20:42:34.351Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.127,
+      "longitude": 11.6757
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238744302)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238744302)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238744388)",
+    "@iot.id": 238744388,
+    "phenomenonTime": "2025-07-18T20:43:12.114Z",
+    "resultTime": "2025-07-18T20:43:12.114Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1271,
+      "longitude": 11.6754
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238744388)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238744388)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238744389)",
+    "@iot.id": 238744389,
+    "phenomenonTime": "2025-07-18T20:43:12.114Z",
+    "resultTime": "2025-07-18T20:43:12.114Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1271,
+      "longitude": 11.6754
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238744389)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238744389)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238744431)",
+    "@iot.id": 238744431,
+    "phenomenonTime": "2025-07-18T20:43:49.827Z",
+    "resultTime": "2025-07-18T20:43:49.827Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1272,
+      "longitude": 11.6752
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238744431)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238744431)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238744434)",
+    "@iot.id": 238744434,
+    "phenomenonTime": "2025-07-18T20:43:49.827Z",
+    "resultTime": "2025-07-18T20:43:49.827Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1272,
+      "longitude": 11.6752
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238744434)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238744434)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238744597)",
+    "@iot.id": 238744597,
+    "phenomenonTime": "2025-07-18T20:45:05.364Z",
+    "resultTime": "2025-07-18T20:45:05.364Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1278,
+      "longitude": 11.6755
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238744597)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238744597)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238744599)",
+    "@iot.id": 238744599,
+    "phenomenonTime": "2025-07-18T20:45:05.364Z",
+    "resultTime": "2025-07-18T20:45:05.364Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1278,
+      "longitude": 11.6755
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238744599)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238744599)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238744639)",
+    "@iot.id": 238744639,
+    "phenomenonTime": "2025-07-18T20:45:43.034Z",
+    "resultTime": "2025-07-18T20:45:43.034Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1281,
+      "longitude": 11.6757
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238744639)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238744639)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238744640)",
+    "@iot.id": 238744640,
+    "phenomenonTime": "2025-07-18T20:45:43.034Z",
+    "resultTime": "2025-07-18T20:45:43.034Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1281,
+      "longitude": 11.6757
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238744640)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238744640)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238744692)",
+    "@iot.id": 238744692,
+    "phenomenonTime": "2025-07-18T20:46:20.77Z",
+    "resultTime": "2025-07-18T20:46:20.77Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1284,
+      "longitude": 11.6759
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238744692)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238744692)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238744696)",
+    "@iot.id": 238744696,
+    "phenomenonTime": "2025-07-18T20:46:20.77Z",
+    "resultTime": "2025-07-18T20:46:20.77Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1284,
+      "longitude": 11.6759
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238744696)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238744696)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238744801)",
+    "@iot.id": 238744801,
+    "phenomenonTime": "2025-07-18T20:46:58.554Z",
+    "resultTime": "2025-07-18T20:46:58.554Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1286,
+      "longitude": 11.6761
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238744801)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238744801)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238744802)",
+    "@iot.id": 238744802,
+    "phenomenonTime": "2025-07-18T20:46:58.554Z",
+    "resultTime": "2025-07-18T20:46:58.554Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1286,
+      "longitude": 11.6761
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238744802)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238744802)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238744960)",
+    "@iot.id": 238744960,
+    "phenomenonTime": "2025-07-18T20:48:14.026Z",
+    "resultTime": "2025-07-18T20:48:14.026Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1289,
+      "longitude": 11.6766
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238744960)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238744960)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238744968)",
+    "@iot.id": 238744968,
+    "phenomenonTime": "2025-07-18T20:48:14.026Z",
+    "resultTime": "2025-07-18T20:48:14.026Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1289,
+      "longitude": 11.6766
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238744968)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238744968)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238745000)",
+    "@iot.id": 238745000,
+    "phenomenonTime": "2025-07-18T20:48:51.793Z",
+    "resultTime": "2025-07-18T20:48:51.793Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1287,
+      "longitude": 11.6769
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238745000)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238745000)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238745006)",
+    "@iot.id": 238745006,
+    "phenomenonTime": "2025-07-18T20:48:51.793Z",
+    "resultTime": "2025-07-18T20:48:51.793Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1287,
+      "longitude": 11.6769
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238745006)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238745006)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238745239)",
+    "@iot.id": 238745239,
+    "phenomenonTime": "2025-07-18T20:50:44.986Z",
+    "resultTime": "2025-07-18T20:50:44.986Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1283,
+      "longitude": 11.6779
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238745239)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238745239)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238745242)",
+    "@iot.id": 238745242,
+    "phenomenonTime": "2025-07-18T20:50:44.986Z",
+    "resultTime": "2025-07-18T20:50:44.986Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1283,
+      "longitude": 11.6779
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238745242)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238745242)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238745301)",
+    "@iot.id": 238745301,
+    "phenomenonTime": "2025-07-18T20:51:22.684Z",
+    "resultTime": "2025-07-18T20:51:22.684Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1282,
+      "longitude": 11.6783
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238745301)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238745301)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238745302)",
+    "@iot.id": 238745302,
+    "phenomenonTime": "2025-07-18T20:51:22.684Z",
+    "resultTime": "2025-07-18T20:51:22.684Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1282,
+      "longitude": 11.6783
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238745302)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238745302)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238745428)",
+    "@iot.id": 238745428,
+    "phenomenonTime": "2025-07-18T20:52:00.467Z",
+    "resultTime": "2025-07-18T20:52:00.467Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.128,
+      "longitude": 11.6786
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238745428)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238745428)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238745430)",
+    "@iot.id": 238745430,
+    "phenomenonTime": "2025-07-18T20:52:00.467Z",
+    "resultTime": "2025-07-18T20:52:00.467Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.128,
+      "longitude": 11.6786
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238745430)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238745430)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238745506)",
+    "@iot.id": 238745506,
+    "phenomenonTime": "2025-07-18T20:52:38.067Z",
+    "resultTime": "2025-07-18T20:52:38.067Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1279,
+      "longitude": 11.6789
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238745506)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238745506)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238745509)",
+    "@iot.id": 238745509,
+    "phenomenonTime": "2025-07-18T20:52:38.067Z",
+    "resultTime": "2025-07-18T20:52:38.067Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1279,
+      "longitude": 11.6789
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238745509)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238745509)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238745596)",
+    "@iot.id": 238745596,
+    "phenomenonTime": "2025-07-18T20:53:15.764Z",
+    "resultTime": "2025-07-18T20:53:15.764Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1277,
+      "longitude": 11.6792
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238745596)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238745596)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238745597)",
+    "@iot.id": 238745597,
+    "phenomenonTime": "2025-07-18T20:53:15.764Z",
+    "resultTime": "2025-07-18T20:53:15.764Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1277,
+      "longitude": 11.6792
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238745597)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238745597)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238745630)",
+    "@iot.id": 238745630,
+    "phenomenonTime": "2025-07-18T20:53:53.512Z",
+    "resultTime": "2025-07-18T20:53:53.512Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1276,
+      "longitude": 11.6795
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238745630)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238745630)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238745633)",
+    "@iot.id": 238745633,
+    "phenomenonTime": "2025-07-18T20:53:53.512Z",
+    "resultTime": "2025-07-18T20:53:53.512Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1276,
+      "longitude": 11.6795
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238745633)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238745633)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238745758)",
+    "@iot.id": 238745758,
+    "phenomenonTime": "2025-07-18T20:54:31.227Z",
+    "resultTime": "2025-07-18T20:54:31.227Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1274,
+      "longitude": 11.6794
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238745758)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238745758)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238745763)",
+    "@iot.id": 238745763,
+    "phenomenonTime": "2025-07-18T20:54:31.227Z",
+    "resultTime": "2025-07-18T20:54:31.227Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1274,
+      "longitude": 11.6794
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238745763)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238745763)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238745821)",
+    "@iot.id": 238745821,
+    "phenomenonTime": "2025-07-18T20:55:08.984Z",
+    "resultTime": "2025-07-18T20:55:08.984Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1273,
+      "longitude": 11.6793
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238745821)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238745821)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238745825)",
+    "@iot.id": 238745825,
+    "phenomenonTime": "2025-07-18T20:55:08.984Z",
+    "resultTime": "2025-07-18T20:55:08.984Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1273,
+      "longitude": 11.6793
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238745825)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238745825)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238745944)",
+    "@iot.id": 238745944,
+    "phenomenonTime": "2025-07-18T20:56:24.544Z",
+    "resultTime": "2025-07-18T20:56:24.544Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1269,
+      "longitude": 11.679
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238745944)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238745944)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238745950)",
+    "@iot.id": 238745950,
+    "phenomenonTime": "2025-07-18T20:56:24.544Z",
+    "resultTime": "2025-07-18T20:56:24.544Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1269,
+      "longitude": 11.679
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238745950)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238745950)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238746016)",
+    "@iot.id": 238746016,
+    "phenomenonTime": "2025-07-18T20:57:02.063Z",
+    "resultTime": "2025-07-18T20:57:02.063Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1267,
+      "longitude": 11.6788
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238746016)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238746016)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238746017)",
+    "@iot.id": 238746017,
+    "phenomenonTime": "2025-07-18T20:57:02.063Z",
+    "resultTime": "2025-07-18T20:57:02.063Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1267,
+      "longitude": 11.6788
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238746017)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238746017)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238746106)",
+    "@iot.id": 238746106,
+    "phenomenonTime": "2025-07-18T20:57:39.906Z",
+    "resultTime": "2025-07-18T20:57:39.906Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1266,
+      "longitude": 11.6786
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238746106)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238746106)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238746109)",
+    "@iot.id": 238746109,
+    "phenomenonTime": "2025-07-18T20:57:39.906Z",
+    "resultTime": "2025-07-18T20:57:39.906Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1266,
+      "longitude": 11.6786
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238746109)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238746109)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238746191)",
+    "@iot.id": 238746191,
+    "phenomenonTime": "2025-07-18T20:58:17.579Z",
+    "resultTime": "2025-07-18T20:58:17.579Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1264,
+      "longitude": 11.6785
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238746191)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238746191)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238746198)",
+    "@iot.id": 238746198,
+    "phenomenonTime": "2025-07-18T20:58:17.579Z",
+    "resultTime": "2025-07-18T20:58:17.579Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1264,
+      "longitude": 11.6785
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238746198)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238746198)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238746265)",
+    "@iot.id": 238746265,
+    "phenomenonTime": "2025-07-18T20:58:55.435Z",
+    "resultTime": "2025-07-18T20:58:55.435Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1262,
+      "longitude": 11.6783
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238746265)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238746265)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238746270)",
+    "@iot.id": 238746270,
+    "phenomenonTime": "2025-07-18T20:58:55.435Z",
+    "resultTime": "2025-07-18T20:58:55.435Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1262,
+      "longitude": 11.6783
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238746270)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238746270)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238746355)",
+    "@iot.id": 238746355,
+    "phenomenonTime": "2025-07-18T20:59:33.044Z",
+    "resultTime": "2025-07-18T20:59:33.044Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1261,
+      "longitude": 11.678
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238746355)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238746355)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238746357)",
+    "@iot.id": 238746357,
+    "phenomenonTime": "2025-07-18T20:59:33.044Z",
+    "resultTime": "2025-07-18T20:59:33.044Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1261,
+      "longitude": 11.678
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238746357)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238746357)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238746468)",
+    "@iot.id": 238746468,
+    "phenomenonTime": "2025-07-18T21:00:48.594Z",
+    "resultTime": "2025-07-18T21:00:48.594Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1264,
+      "longitude": 11.6774
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238746468)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238746468)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238746469)",
+    "@iot.id": 238746469,
+    "phenomenonTime": "2025-07-18T21:00:48.594Z",
+    "resultTime": "2025-07-18T21:00:48.594Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1264,
+      "longitude": 11.6774
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238746469)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238746469)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238746532)",
+    "@iot.id": 238746532,
+    "phenomenonTime": "2025-07-18T21:01:26.411Z",
+    "resultTime": "2025-07-18T21:01:26.411Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1265,
+      "longitude": 11.677
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238746532)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238746532)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238746537)",
+    "@iot.id": 238746537,
+    "phenomenonTime": "2025-07-18T21:01:26.411Z",
+    "resultTime": "2025-07-18T21:01:26.411Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1265,
+      "longitude": 11.677
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238746537)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238746537)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238746601)",
+    "@iot.id": 238746601,
+    "phenomenonTime": "2025-07-18T21:02:04.077Z",
+    "resultTime": "2025-07-18T21:02:04.077Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1266,
+      "longitude": 11.6768
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238746601)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238746601)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238746607)",
+    "@iot.id": 238746607,
+    "phenomenonTime": "2025-07-18T21:02:04.077Z",
+    "resultTime": "2025-07-18T21:02:04.077Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1266,
+      "longitude": 11.6768
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238746607)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238746607)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238746681)",
+    "@iot.id": 238746681,
+    "phenomenonTime": "2025-07-18T21:02:41.846Z",
+    "resultTime": "2025-07-18T21:02:41.846Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1267,
+      "longitude": 11.6765
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238746681)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238746681)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238746688)",
+    "@iot.id": 238746688,
+    "phenomenonTime": "2025-07-18T21:02:41.846Z",
+    "resultTime": "2025-07-18T21:02:41.846Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1267,
+      "longitude": 11.6765
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238746688)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238746688)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238746767)",
+    "@iot.id": 238746767,
+    "phenomenonTime": "2025-07-18T21:03:19.604Z",
+    "resultTime": "2025-07-18T21:03:19.604Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1269,
+      "longitude": 11.6761
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238746767)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238746767)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238746768)",
+    "@iot.id": 238746768,
+    "phenomenonTime": "2025-07-18T21:03:19.604Z",
+    "resultTime": "2025-07-18T21:03:19.604Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1269,
+      "longitude": 11.6761
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238746768)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238746768)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238746803)",
+    "@iot.id": 238746803,
+    "phenomenonTime": "2025-07-18T21:03:57.434Z",
+    "resultTime": "2025-07-18T21:03:57.434Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.127,
+      "longitude": 11.6758
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238746803)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238746803)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238746808)",
+    "@iot.id": 238746808,
+    "phenomenonTime": "2025-07-18T21:03:57.434Z",
+    "resultTime": "2025-07-18T21:03:57.434Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.127,
+      "longitude": 11.6758
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238746808)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238746808)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238746885)",
+    "@iot.id": 238746885,
+    "phenomenonTime": "2025-07-18T21:04:35.014Z",
+    "resultTime": "2025-07-18T21:04:35.014Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1271,
+      "longitude": 11.6755
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238746885)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238746885)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238746887)",
+    "@iot.id": 238746887,
+    "phenomenonTime": "2025-07-18T21:04:35.014Z",
+    "resultTime": "2025-07-18T21:04:35.014Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1271,
+      "longitude": 11.6755
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238746887)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238746887)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238746987)",
+    "@iot.id": 238746987,
+    "phenomenonTime": "2025-07-18T21:05:50.566Z",
+    "resultTime": "2025-07-18T21:05:50.566Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1272,
+      "longitude": 11.6749
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238746987)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238746987)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238746990)",
+    "@iot.id": 238746990,
+    "phenomenonTime": "2025-07-18T21:05:50.566Z",
+    "resultTime": "2025-07-18T21:05:50.566Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1272,
+      "longitude": 11.6749
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238746990)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238746990)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238747060)",
+    "@iot.id": 238747060,
+    "phenomenonTime": "2025-07-18T21:06:28.315Z",
+    "resultTime": "2025-07-18T21:06:28.315Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1271,
+      "longitude": 11.6746
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238747060)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238747060)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238747063)",
+    "@iot.id": 238747063,
+    "phenomenonTime": "2025-07-18T21:06:28.315Z",
+    "resultTime": "2025-07-18T21:06:28.315Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1271,
+      "longitude": 11.6746
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238747063)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238747063)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238747144)",
+    "@iot.id": 238747144,
+    "phenomenonTime": "2025-07-18T21:07:05.997Z",
+    "resultTime": "2025-07-18T21:07:05.997Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1268,
+      "longitude": 11.6744
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238747144)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238747144)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238747148)",
+    "@iot.id": 238747148,
+    "phenomenonTime": "2025-07-18T21:07:05.997Z",
+    "resultTime": "2025-07-18T21:07:05.997Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1268,
+      "longitude": 11.6744
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238747148)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238747148)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238747195)",
+    "@iot.id": 238747195,
+    "phenomenonTime": "2025-07-18T21:07:43.769Z",
+    "resultTime": "2025-07-18T21:07:43.769Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1266,
+      "longitude": 11.6742
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238747195)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238747195)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238747203)",
+    "@iot.id": 238747203,
+    "phenomenonTime": "2025-07-18T21:07:43.769Z",
+    "resultTime": "2025-07-18T21:07:43.769Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1266,
+      "longitude": 11.6742
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238747203)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238747203)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238747297)",
+    "@iot.id": 238747297,
+    "phenomenonTime": "2025-07-18T21:08:21.55Z",
+    "resultTime": "2025-07-18T21:08:21.55Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1264,
+      "longitude": 11.674
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238747297)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238747297)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238747299)",
+    "@iot.id": 238747299,
+    "phenomenonTime": "2025-07-18T21:08:21.55Z",
+    "resultTime": "2025-07-18T21:08:21.55Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1264,
+      "longitude": 11.674
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238747299)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238747299)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238747339)",
+    "@iot.id": 238747339,
+    "phenomenonTime": "2025-07-18T21:08:59.194Z",
+    "resultTime": "2025-07-18T21:08:59.194Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1263,
+      "longitude": 11.6738
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238747339)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238747339)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238747342)",
+    "@iot.id": 238747342,
+    "phenomenonTime": "2025-07-18T21:08:59.194Z",
+    "resultTime": "2025-07-18T21:08:59.194Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1263,
+      "longitude": 11.6738
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238747342)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238747342)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238747404)",
+    "@iot.id": 238747404,
+    "phenomenonTime": "2025-07-18T21:09:36.954Z",
+    "resultTime": "2025-07-18T21:09:36.954Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1261,
+      "longitude": 11.6737
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238747404)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238747404)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238747405)",
+    "@iot.id": 238747405,
+    "phenomenonTime": "2025-07-18T21:09:36.954Z",
+    "resultTime": "2025-07-18T21:09:36.954Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1261,
+      "longitude": 11.6737
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238747405)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238747405)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238747485)",
+    "@iot.id": 238747485,
+    "phenomenonTime": "2025-07-18T21:10:14.714Z",
+    "resultTime": "2025-07-18T21:10:14.714Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1258,
+      "longitude": 11.6737
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238747485)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238747485)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238747487)",
+    "@iot.id": 238747487,
+    "phenomenonTime": "2025-07-18T21:10:14.714Z",
+    "resultTime": "2025-07-18T21:10:14.714Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1258,
+      "longitude": 11.6737
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238747487)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238747487)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238747549)",
+    "@iot.id": 238747549,
+    "phenomenonTime": "2025-07-18T21:10:52.507Z",
+    "resultTime": "2025-07-18T21:10:52.507Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1257,
+      "longitude": 11.674
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238747549)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238747549)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238747553)",
+    "@iot.id": 238747553,
+    "phenomenonTime": "2025-07-18T21:10:52.507Z",
+    "resultTime": "2025-07-18T21:10:52.507Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1257,
+      "longitude": 11.674
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238747553)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238747553)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238747609)",
+    "@iot.id": 238747609,
+    "phenomenonTime": "2025-07-18T21:11:30.074Z",
+    "resultTime": "2025-07-18T21:11:30.074Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1256,
+      "longitude": 11.6745
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238747609)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238747609)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238747617)",
+    "@iot.id": 238747617,
+    "phenomenonTime": "2025-07-18T21:11:30.074Z",
+    "resultTime": "2025-07-18T21:11:30.074Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1256,
+      "longitude": 11.6745
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238747617)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238747617)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238747695)",
+    "@iot.id": 238747695,
+    "phenomenonTime": "2025-07-18T21:12:07.82Z",
+    "resultTime": "2025-07-18T21:12:07.82Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1257,
+      "longitude": 11.6748
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238747695)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238747695)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238747697)",
+    "@iot.id": 238747697,
+    "phenomenonTime": "2025-07-18T21:12:07.82Z",
+    "resultTime": "2025-07-18T21:12:07.82Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1257,
+      "longitude": 11.6748
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238747697)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238747697)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238747755)",
+    "@iot.id": 238747755,
+    "phenomenonTime": "2025-07-18T21:12:45.573Z",
+    "resultTime": "2025-07-18T21:12:45.573Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1257,
+      "longitude": 11.6751
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238747755)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238747755)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238747761)",
+    "@iot.id": 238747761,
+    "phenomenonTime": "2025-07-18T21:12:45.573Z",
+    "resultTime": "2025-07-18T21:12:45.573Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1257,
+      "longitude": 11.6751
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238747761)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238747761)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238747883)",
+    "@iot.id": 238747883,
+    "phenomenonTime": "2025-07-18T21:14:00.994Z",
+    "resultTime": "2025-07-18T21:14:00.994Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1257,
+      "longitude": 11.6759
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238747883)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238747883)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238747888)",
+    "@iot.id": 238747888,
+    "phenomenonTime": "2025-07-18T21:14:00.994Z",
+    "resultTime": "2025-07-18T21:14:00.994Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1257,
+      "longitude": 11.6759
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238747888)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238747888)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238748041)",
+    "@iot.id": 238748041,
+    "phenomenonTime": "2025-07-18T21:15:16.654Z",
+    "resultTime": "2025-07-18T21:15:16.654Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1258,
+      "longitude": 11.6767
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238748041)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238748041)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238748042)",
+    "@iot.id": 238748042,
+    "phenomenonTime": "2025-07-18T21:15:16.654Z",
+    "resultTime": "2025-07-18T21:15:16.654Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1258,
+      "longitude": 11.6767
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238748042)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238748042)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238748090)",
+    "@iot.id": 238748090,
+    "phenomenonTime": "2025-07-18T21:15:54.391Z",
+    "resultTime": "2025-07-18T21:15:54.391Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1258,
+      "longitude": 11.6767
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238748090)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238748090)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238748093)",
+    "@iot.id": 238748093,
+    "phenomenonTime": "2025-07-18T21:15:54.391Z",
+    "resultTime": "2025-07-18T21:15:54.391Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1258,
+      "longitude": 11.6767
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238748093)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238748093)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238748152)",
+    "@iot.id": 238748152,
+    "phenomenonTime": "2025-07-18T21:16:32.055Z",
+    "resultTime": "2025-07-18T21:16:32.055Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1258,
+      "longitude": 11.6767
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238748152)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238748152)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238748157)",
+    "@iot.id": 238748157,
+    "phenomenonTime": "2025-07-18T21:16:32.055Z",
+    "resultTime": "2025-07-18T21:16:32.055Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1258,
+      "longitude": 11.6767
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238748157)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238748157)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238748241)",
+    "@iot.id": 238748241,
+    "phenomenonTime": "2025-07-18T21:17:09.779Z",
+    "resultTime": "2025-07-18T21:17:09.779Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1259,
+      "longitude": 11.6769
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238748241)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238748241)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238748246)",
+    "@iot.id": 238748246,
+    "phenomenonTime": "2025-07-18T21:17:09.779Z",
+    "resultTime": "2025-07-18T21:17:09.779Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1259,
+      "longitude": 11.6769
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238748246)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238748246)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238748303)",
+    "@iot.id": 238748303,
+    "phenomenonTime": "2025-07-18T21:17:47.514Z",
+    "resultTime": "2025-07-18T21:17:47.514Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.126,
+      "longitude": 11.6772
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238748303)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238748303)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238748304)",
+    "@iot.id": 238748304,
+    "phenomenonTime": "2025-07-18T21:17:47.514Z",
+    "resultTime": "2025-07-18T21:17:47.514Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.126,
+      "longitude": 11.6772
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238748304)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238748304)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238748381)",
+    "@iot.id": 238748381,
+    "phenomenonTime": "2025-07-18T21:18:25.129Z",
+    "resultTime": "2025-07-18T21:18:25.129Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.126,
+      "longitude": 11.6775
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238748381)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238748381)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238748385)",
+    "@iot.id": 238748385,
+    "phenomenonTime": "2025-07-18T21:18:25.129Z",
+    "resultTime": "2025-07-18T21:18:25.129Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.126,
+      "longitude": 11.6775
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238748385)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238748385)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238748445)",
+    "@iot.id": 238748445,
+    "phenomenonTime": "2025-07-18T21:19:02.9Z",
+    "resultTime": "2025-07-18T21:19:02.9Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1262,
+      "longitude": 11.6777
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238748445)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238748445)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238748449)",
+    "@iot.id": 238748449,
+    "phenomenonTime": "2025-07-18T21:19:02.9Z",
+    "resultTime": "2025-07-18T21:19:02.9Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1262,
+      "longitude": 11.6777
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238748449)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238748449)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238748571)",
+    "@iot.id": 238748571,
+    "phenomenonTime": "2025-07-18T21:20:18.394Z",
+    "resultTime": "2025-07-18T21:20:18.394Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1265,
+      "longitude": 11.6771
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238748571)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238748571)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238748576)",
+    "@iot.id": 238748576,
+    "phenomenonTime": "2025-07-18T21:20:18.394Z",
+    "resultTime": "2025-07-18T21:20:18.394Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1265,
+      "longitude": 11.6771
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238748576)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238748576)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238748615)",
+    "@iot.id": 238748615,
+    "phenomenonTime": "2025-07-18T21:20:56.012Z",
+    "resultTime": "2025-07-18T21:20:56.012Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1266,
+      "longitude": 11.6768
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238748615)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238748615)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238748616)",
+    "@iot.id": 238748616,
+    "phenomenonTime": "2025-07-18T21:20:56.012Z",
+    "resultTime": "2025-07-18T21:20:56.012Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1266,
+      "longitude": 11.6768
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238748616)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238748616)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238748660)",
+    "@iot.id": 238748660,
+    "phenomenonTime": "2025-07-18T21:21:33.773Z",
+    "resultTime": "2025-07-18T21:21:33.773Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1268,
+      "longitude": 11.6764
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238748660)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238748660)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238748665)",
+    "@iot.id": 238748665,
+    "phenomenonTime": "2025-07-18T21:21:33.773Z",
+    "resultTime": "2025-07-18T21:21:33.773Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1268,
+      "longitude": 11.6764
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238748665)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238748665)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238748735)",
+    "@iot.id": 238748735,
+    "phenomenonTime": "2025-07-18T21:22:11.509Z",
+    "resultTime": "2025-07-18T21:22:11.509Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1269,
+      "longitude": 11.6761
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238748735)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238748735)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238748739)",
+    "@iot.id": 238748739,
+    "phenomenonTime": "2025-07-18T21:22:11.509Z",
+    "resultTime": "2025-07-18T21:22:11.509Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1269,
+      "longitude": 11.6761
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238748739)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238748739)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238748835)",
+    "@iot.id": 238748835,
+    "phenomenonTime": "2025-07-18T21:22:49.092Z",
+    "resultTime": "2025-07-18T21:22:49.092Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.127,
+      "longitude": 11.6757
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238748835)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238748835)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238748837)",
+    "@iot.id": 238748837,
+    "phenomenonTime": "2025-07-18T21:22:49.092Z",
+    "resultTime": "2025-07-18T21:22:49.092Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.127,
+      "longitude": 11.6757
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238748837)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238748837)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238748994)",
+    "@iot.id": 238748994,
+    "phenomenonTime": "2025-07-18T21:24:04.736Z",
+    "resultTime": "2025-07-18T21:24:04.736Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1273,
+      "longitude": 11.6751
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238748994)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238748994)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238748997)",
+    "@iot.id": 238748997,
+    "phenomenonTime": "2025-07-18T21:24:04.736Z",
+    "resultTime": "2025-07-18T21:24:04.736Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1273,
+      "longitude": 11.6751
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238748997)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238748997)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238749215)",
+    "@iot.id": 238749215,
+    "phenomenonTime": "2025-07-18T21:26:35.598Z",
+    "resultTime": "2025-07-18T21:26:35.598Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1278,
+      "longitude": 11.674
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238749215)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238749215)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238749223)",
+    "@iot.id": 238749223,
+    "phenomenonTime": "2025-07-18T21:26:35.598Z",
+    "resultTime": "2025-07-18T21:26:35.598Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1278,
+      "longitude": 11.674
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238749223)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238749223)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238749291)",
+    "@iot.id": 238749291,
+    "phenomenonTime": "2025-07-18T21:27:13.358Z",
+    "resultTime": "2025-07-18T21:27:13.358Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1279,
+      "longitude": 11.6736
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238749291)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238749291)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238749297)",
+    "@iot.id": 238749297,
+    "phenomenonTime": "2025-07-18T21:27:13.358Z",
+    "resultTime": "2025-07-18T21:27:13.358Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1279,
+      "longitude": 11.6736
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238749297)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238749297)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238749439)",
+    "@iot.id": 238749439,
+    "phenomenonTime": "2025-07-18T21:28:28.756Z",
+    "resultTime": "2025-07-18T21:28:28.756Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1281,
+      "longitude": 11.6729
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238749439)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238749439)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238749440)",
+    "@iot.id": 238749440,
+    "phenomenonTime": "2025-07-18T21:28:28.756Z",
+    "resultTime": "2025-07-18T21:28:28.756Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1281,
+      "longitude": 11.6729
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238749440)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238749440)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238749492)",
+    "@iot.id": 238749492,
+    "phenomenonTime": "2025-07-18T21:29:06.48Z",
+    "resultTime": "2025-07-18T21:29:06.48Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1282,
+      "longitude": 11.6725
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238749492)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238749492)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238749494)",
+    "@iot.id": 238749494,
+    "phenomenonTime": "2025-07-18T21:29:06.48Z",
+    "resultTime": "2025-07-18T21:29:06.48Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1282,
+      "longitude": 11.6725
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238749494)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238749494)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238749678)",
+    "@iot.id": 238749678,
+    "phenomenonTime": "2025-07-18T21:30:59.766Z",
+    "resultTime": "2025-07-18T21:30:59.766Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1287,
+      "longitude": 11.6714
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238749678)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238749678)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238749680)",
+    "@iot.id": 238749680,
+    "phenomenonTime": "2025-07-18T21:30:59.766Z",
+    "resultTime": "2025-07-18T21:30:59.766Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1287,
+      "longitude": 11.6714
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238749680)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238749680)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238749745)",
+    "@iot.id": 238749745,
+    "phenomenonTime": "2025-07-18T21:31:37.524Z",
+    "resultTime": "2025-07-18T21:31:37.524Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1287,
+      "longitude": 11.6712
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238749745)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238749745)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238749749)",
+    "@iot.id": 238749749,
+    "phenomenonTime": "2025-07-18T21:31:37.524Z",
+    "resultTime": "2025-07-18T21:31:37.524Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1287,
+      "longitude": 11.6712
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238749749)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238749749)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238749807)",
+    "@iot.id": 238749807,
+    "phenomenonTime": "2025-07-18T21:32:15.19Z",
+    "resultTime": "2025-07-18T21:32:15.19Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1289,
+      "longitude": 11.6708
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238749807)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238749807)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238749812)",
+    "@iot.id": 238749812,
+    "phenomenonTime": "2025-07-18T21:32:15.19Z",
+    "resultTime": "2025-07-18T21:32:15.19Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1289,
+      "longitude": 11.6708
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238749812)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238749812)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238749933)",
+    "@iot.id": 238749933,
+    "phenomenonTime": "2025-07-18T21:33:30.756Z",
+    "resultTime": "2025-07-18T21:33:30.756Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1291,
+      "longitude": 11.6701
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238749933)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238749933)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238749937)",
+    "@iot.id": 238749937,
+    "phenomenonTime": "2025-07-18T21:33:30.756Z",
+    "resultTime": "2025-07-18T21:33:30.756Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1291,
+      "longitude": 11.6701
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238749937)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238749937)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238749985)",
+    "@iot.id": 238749985,
+    "phenomenonTime": "2025-07-18T21:34:08.31Z",
+    "resultTime": "2025-07-18T21:34:08.31Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1294,
+      "longitude": 11.67
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238749985)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238749985)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238749987)",
+    "@iot.id": 238749987,
+    "phenomenonTime": "2025-07-18T21:34:08.31Z",
+    "resultTime": "2025-07-18T21:34:08.31Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1294,
+      "longitude": 11.67
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238749987)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238749987)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238750144)",
+    "@iot.id": 238750144,
+    "phenomenonTime": "2025-07-18T21:35:23.862Z",
+    "resultTime": "2025-07-18T21:35:23.862Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1298,
+      "longitude": 11.6702
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238750144)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238750144)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238750146)",
+    "@iot.id": 238750146,
+    "phenomenonTime": "2025-07-18T21:35:23.862Z",
+    "resultTime": "2025-07-18T21:35:23.862Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1298,
+      "longitude": 11.6702
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238750146)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238750146)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238750182)",
+    "@iot.id": 238750182,
+    "phenomenonTime": "2025-07-18T21:36:01.677Z",
+    "resultTime": "2025-07-18T21:36:01.677Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1298,
+      "longitude": 11.6702
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238750182)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238750182)/FeatureOfInterest"
+  },
+  {
+    "@iot.selfLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238750185)",
+    "@iot.id": 238750185,
+    "phenomenonTime": "2025-07-18T21:36:01.677Z",
+    "resultTime": "2025-07-18T21:36:01.677Z",
+    "result": {
+      "altitude": 0,
+      "latitude": 48.1298,
+      "longitude": 11.6702
+    },
+    "Datastream@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238750185)/Datastream",
+    "FeatureOfInterest@iot.navigationLink": "https://gi3.gis.lrg.tum.de/frost/v1.1/Observations(238750185)/FeatureOfInterest"
+  }
+]
