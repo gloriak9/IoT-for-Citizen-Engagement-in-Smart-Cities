@@ -4,8 +4,9 @@ import "@fontsource/montserrat-alternates";
 import { Routes, Route, Link } from "react-router-dom";
 import { ToolProvider } from "./ToolContext";
 import Home from "./Home";
-import Dashboard from "./Dashboard";
 import { MapPinIcon, ChartColumnIcon, SettingsIcon } from "lucide-react";
+import Dashboard from "./Dashboard";
+import SensorChart from "./Charts/CombinedSensorChart";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/dashboard" element={<Dashboard />} />
+        <Route path="/sensor" element={<SensorChart />} />
         </Routes>
       </div>
     </ToolProvider>

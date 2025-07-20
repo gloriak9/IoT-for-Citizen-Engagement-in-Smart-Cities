@@ -1,0 +1,61 @@
+.environmental-radial-charts {
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 32px 2vw;
+  background: white;
+  border-radius: 12px;
+  box-sizing: border-box;
+}
+
+.radial-charts-row {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 columns on desktop */
+  gap: 2vw; /* or gap: 24px; for fixed spacing */
+  width: 100%;
+  box-sizing: border-box;
+  align-items: stretch;
+}
+
+/* 2x2 grid on tablets/small laptops */
+@media (max-width: 1100px) {
+  .radial-charts-row {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* 1 column on mobile */
+@media (max-width: 600px) {
+  .radial-charts-row {
+    grid-template-columns: 1fr;
+  }
+}
+
+.radial-chart-card {
+  background: #fafafa;
+  border-radius: 8px;
+  border: 1px solid #e0e0e0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px;
+  min-width: 0; /* Prevents overflow in grid/flex */
+  box-sizing: border-box;
+}
+
+.radial-chart-card .chart-header h3 {
+  margin: 0 0 10px 0;
+  color: #263238;
+  font-size: 1.1rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+.radial-chart-card .chart-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 250px;
+  background: white;
+  border-radius: 6px;
+  padding: 10px;
+} 

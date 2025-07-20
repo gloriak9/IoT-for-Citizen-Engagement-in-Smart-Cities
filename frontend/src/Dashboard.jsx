@@ -1,19 +1,25 @@
-// src/Dashboard.js
-import React from "react";
+import CombinedSensorChart from "./Charts/CombinedSensorChart";
+import EnvironmentalRadialBarCharts from "./Charts/EnvironmentalRadialBarCharts";
+import "./Dashboard.css";
 
-function Dashboard() {
+const Dashboard = () => {
   return (
     <div className="dashboard-container">
-      <iframe
-        title="Grafana Dashboard"
-        src="https://grafana.com/products/cloud/?pg=oss-graf&plcmt=hero-txt"
-        width="100%"
-        height="1000px"
-        frameBorder="0"
-        allowFullScreen
-      ></iframe>
+      <h1 className="dashboard-title">Munich Light & Environment Monitor</h1>
+      <div className="charts-grid">
+        <div className="chart-card">
+          <div className="chart-card-content">
+            <CombinedSensorChart />
+          </div>
+        </div>
+        <div className="chart-card">
+          <div className="chart-card-content">
+            <EnvironmentalRadialBarCharts />
+          </div>
+        </div>
+      </div>
     </div>
   );
-}
+};
 
 export default Dashboard;
