@@ -4,7 +4,7 @@ import "@fontsource/montserrat-alternates";
 import { Routes, Route, Link } from "react-router-dom";
 import { ToolProvider } from "./ToolContext";
 import Home from "./Home";
-import { MapPinIcon, ChartColumnIcon, SettingsIcon } from "lucide-react";
+import { MapPinIcon, ChartColumnIcon, InfoIcon } from "lucide-react";
 import Dashboard from "./Dashboard";
 import SensorChart from "./Charts/CombinedSensorChart";
 
@@ -17,7 +17,7 @@ function App() {
           <div className="nav-links">
             <Link to="/"><button><MapPinIcon /> Map</button></Link>
             <Link to="/dashboard"><button><ChartColumnIcon /> Dashboard</button></Link>
-            <button><SettingsIcon /> Settings</button>
+            <button><InfoIcon /> Info</button>
           </div>
         </nav>
 

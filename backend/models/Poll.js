@@ -1,11 +1,10 @@
-// --- Backend: models/Poll.js ---
-const mongoose = require("mongoose");
+const mongoose = require('mongoose');
 
-const PollSchema = new mongoose.Schema({
+const pollSchema = new mongoose.Schema({
   pollId: { type: String, required: true, unique: true },
   question: String,
   options: [String],
-  votes: { type: Map, of: Number },
+  votes: Object,
 });
 
-module.exports = mongoose.model("Poll", PollSchema);
+module.exports = mongoose.model('Poll', pollSchema);
