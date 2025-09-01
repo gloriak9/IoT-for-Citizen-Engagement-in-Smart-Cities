@@ -37,22 +37,24 @@ body, html, #root {
   flex-wrap: wrap;
 }
 
+.nav-links {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap; /* Ensure buttons wrap if needed */
+}
+
 .nav-links button {
   margin-left: 0.75rem;
   background: none;
-  border: 2px solid #1a7b51; /* Darker green border for contrast */
-  color: #ffffff; /* White text for better contrast on #2cb67d */
+  border: none;
+  color: rgb(0, 0, 0);
   cursor: pointer;
-  font-size: clamp(0.875rem, 2vw, 1.125rem);
-  padding: 0.5rem 1rem; /* Adjusted padding for border */
-  border-radius: 4px; /* Subtle rounding for a modern look */
-  transition: background-color 0.2s, border-color 0.2s; /* Smooth hover transition */
+  font-size: clamp(0.875rem, 2vw, 1.125rem); /* Slightly larger minimum */
+  padding: 0.5rem; /* Add padding for touch targets */
 }
 
 .nav-links button:hover {
-  background-color: #1a7b51; /* Darker green on hover */
-  border-color: #ffffff; /* White border on hover for emphasis */
-  text-decoration: none; /* Remove underline for cleaner hover effect */
+  text-decoration: underline;
 }
 
 /* Map container styling (unchanged) */
