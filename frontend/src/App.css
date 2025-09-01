@@ -1,17 +1,15 @@
-/* Reset and base styles (unchanged) */
 body, html, #root {
   margin: 0;
   padding: 0;
   height: 100%;
   width: 100%;
-  font-family: 'Montserrat Alternates', sans-serif;
-  overflow: hidden;
+ font-family: 'Montserrat Alternates', sans-serif;
 }
 
 .app-container {
   display: flex;
   flex-direction: column;
-  height: 100vh;
+  height: 100%;
   width: 100%;
 }
 
@@ -19,42 +17,35 @@ body, html, #root {
 .navbar {
   background-color: #2cb67d;
   color: rgb(0, 0, 0);
-  padding: 1rem;
-  display: inline;
+  padding: 1rem 1rem;
+  display: flex;
   justify-content: space-between;
   align-items: center;
-  flex-wrap: nowrap;
+  height: 40px;
 }
 
-.nav-links {
-  font-size: clamp(1.25rem, 2.5vw, 1.75rem);
+.logo-text {
+  font-size: clamp(1.5rem, 2.5vw, 2.25rem);
   font-weight: bold;
-  display: inline;
-  align-items: center;
-  flex-wrap: nowrap;
 }
+
 .nav-links button {
-  margin-left: 0.75rem;
+  margin-left: 1rem;
   background: none;
   border: none;
   color: rgb(0, 0, 0);
   cursor: pointer;
-  font-size: clamp(0.875rem, 2vw, 1.125rem);
-  padding: 0.5rem;
-  display: inline;
-  align-items: center; /* Ensures icons inside button align with text */
-  gap: 0.15rem; /* Optional: spacing between icon and text */
+  font-size: clamp(1rem, 2vw, 1.25rem);
 }
 
 .nav-links button:hover {
   text-decoration: underline;
 }
 
-/* Map container styling (unchanged) */
+/* Map container styling */
 .map-wrapper {
   position: relative;
   flex-grow: 1;
-  height: calc(100% - 72px);
 }
 
 .map {
@@ -74,93 +65,45 @@ body, html, #root {
 }
 
 .floating-buttons button {
-  padding: 0.75rem 1.25rem;
+  padding: 0.5rem 1rem;
   border-radius: 9999px;
-  border: 2px solid #2cb67d; /* Green border to match navbar */
+  border: none;
   background-color: white;
-  color: #1a7b51; /* Darker green text for contrast on white */
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
   cursor: pointer;
-  font-size: clamp(0.875rem, 2vw, 1rem);
-  min-width: 44px;
-  text-align: center;
-  transition: background-color 0.2s, border-color 0.2s;
+  font-size: 0.9rem;
 }
 
 .floating-buttons button:hover {
   background-color: #aff3d3;
-  border-color: #1a7b51; /* Darker green border on hover */
 }
 
 .floating-buttons .close {
   background-color: #2cb67d;
-  color: white; /* White text for contrast */
-  border: 2px solid #ffffff; /* White border for distinction */
+  color: white;
 }
 
 .floating-buttons .close:hover {
-  background-color: #1a7b51;
-  border-color: #ffffff;
+  background-color: #248a60;
 }
 
-/* Media Queries */
-@media (max-width: 768px) {
-  .navbar {
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 0.75rem;
-  }
-
+@media (max-width: 600px) {
   .logo-text {
-    font-size: clamp(1.125rem, 2.5vw, 1.5rem);
+  font-size: clamp(1.0rem, 2.5vw, 2.25rem);
+  font-weight: bold;
   }
-
   .nav-links {
     flex-direction: column;
     width: 100%;
-    align-items: flex-start;
   }
 
   .nav-links button {
     margin: 0.5rem 0;
-    font-size: clamp(0.875rem, 2vw, 1rem);
-    padding: 0.75rem;
-    width: 100%;
-    text-align: left;
-    border-radius: 4px;
-  }
-
-  .floating-buttons {
-    top: 0.5rem;
-    right: 0.5rem;
-    gap: 0.5rem;
-  }
-
-  .floating-buttons button {
-    padding: 0.5rem 1rem;
-    font-size: 0.875rem;
-    border-radius: 9999px;
+    font-size: clamp(0.5rem, 2vw, 1.25rem);
   }
 }
 
-@media (max-width: 480px) {
-  .logo-text {
-    font-size: clamp(1rem, 2.5vw, 1.25rem);
-  }
 
-  .nav-links button {
-    font-size: clamp(0.75rem, 2vw, 0.875rem);
-  }
 
-  .floating-buttons {
-    top: 0.25rem;
-    right: 0.25rem;
-  }
 
-  .floating-buttons button {
-    padding: 0.5rem;
-    font-size: 0.75rem;
-    min-width: 36px;
-    border-radius: 9999px;
-  }
-}
+
