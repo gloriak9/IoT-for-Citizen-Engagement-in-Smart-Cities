@@ -34,7 +34,7 @@ body, html, #root {
   flex-wrap: nowrap;
 }
 .nav-links button {
-  margin-left: 0.1rem;
+  margin-left: 0.75rem;
   background: none;
   border: none;
   color: rgb(0, 0, 0);
