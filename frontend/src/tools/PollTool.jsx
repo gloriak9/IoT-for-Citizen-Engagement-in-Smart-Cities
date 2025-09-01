@@ -29,7 +29,7 @@ function PollTool() {
     }
 
     try {
-      const res = await fetch("http://localhost:5000/api/polls", {
+      const res = await fetch("https://iot-for-citizen-engagement-in-smart.onrender.com/api/polls", {
         method: "POST",
         body: formData,
       });
