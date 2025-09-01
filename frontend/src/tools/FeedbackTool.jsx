@@ -41,7 +41,7 @@ function FeedbackTool() {
     }
 
     try {
-      const res = await fetch("http://localhost:5000/api/feedbacks", {
+      const res = await fetch("https://iot-for-citizen-engagement-in-smart.onrender.com/api/feedbacks", {
         method: "POST",
         body: formData,
       });
