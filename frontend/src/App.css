@@ -1,17 +1,17 @@
-/* Reset and base styles */
+/* Reset and base styles (unchanged) */
 body, html, #root {
   margin: 0;
   padding: 0;
   height: 100%;
   width: 100%;
   font-family: 'Montserrat Alternates', sans-serif;
-  overflow: hidden; /* Prevent unwanted scrolling */
+  overflow: hidden;
 }
 
 .app-container {
   display: flex;
   flex-direction: column;
-  height: 100vh; /* Use viewport height for full-screen coverage */
+  height: 100vh;
   width: 100%;
 }
 
@@ -23,39 +23,43 @@ body, html, #root {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  flex-wrap: wrap; /* Allow wrapping for smaller screens */
+  flex-wrap: wrap;
 }
 
 .logo-text {
-  font-size: clamp(1.25rem, 2.5vw, 1.75rem); /* Adjusted for smaller screens */
+  font-size: clamp(1.25rem, 2.5vw, 1.75rem);
   font-weight: bold;
 }
 
 .nav-links {
   display: flex;
   align-items: center;
-  flex-wrap: wrap; /* Ensure buttons wrap if needed */
+  flex-wrap: wrap;
 }
 
 .nav-links button {
   margin-left: 0.75rem;
   background: none;
-  border: none;
-  color: rgb(0, 0, 0);
+  border: 2px solid #1a7b51; /* Darker green border for contrast */
+  color: #ffffff; /* White text for better contrast on #2cb67d */
   cursor: pointer;
-  font-size: clamp(0.875rem, 2vw, 1.125rem); /* Slightly larger minimum */
-  padding: 0.5rem; /* Add padding for touch targets */
+  font-size: clamp(0.875rem, 2vw, 1.125rem);
+  padding: 0.5rem 1rem; /* Adjusted padding for border */
+  border-radius: 4px; /* Subtle rounding for a modern look */
+  transition: background-color 0.2s, border-color 0.2s; /* Smooth hover transition */
 }
 
 .nav-links button:hover {
-  text-decoration: underline;
+  background-color: #1a7b51; /* Darker green on hover */
+  border-color: #ffffff; /* White border on hover for emphasis */
+  text-decoration: none; /* Remove underline for cleaner hover effect */
 }
 
-/* Map container styling */
+/* Map container styling (unchanged) */
 .map-wrapper {
   position: relative;
   flex-grow: 1;
-  height: calc(100% - 72px); /* Adjust for navbar height (approx. 1rem padding + content) */
+  height: calc(100% - 72px);
 }
 
 .map {
@@ -75,28 +79,33 @@ body, html, #root {
 }
 
 .floating-buttons button {
-  padding: 0.75rem 1.25rem; /* Larger padding for touch */
+  padding: 0.75rem 1.25rem;
   border-radius: 9999px;
-  border: none;
+  border: 2px solid #2cb67d; /* Green border to match navbar */
   background-color: white;
+  color: #1a7b51; /* Darker green text for contrast on white */
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
   cursor: pointer;
-  font-size: clamp(0.875rem, 2vw, 1rem); /* Larger font for readability */
-  min-width: 44px; /* Minimum touch target size */
+  font-size: clamp(0.875rem, 2vw, 1rem);
+  min-width: 44px;
   text-align: center;
+  transition: background-color 0.2s, border-color 0.2s;
 }
 
 .floating-buttons button:hover {
   background-color: #aff3d3;
+  border-color: #1a7b51; /* Darker green border on hover */
 }
 
 .floating-buttons .close {
   background-color: #2cb67d;
-  color: white;
+  color: white; /* White text for contrast */
+  border: 2px solid #ffffff; /* White border for distinction */
 }
 
 .floating-buttons .close:hover {
-  background-color: #248a60;
+  background-color: #1a7b51;
+  border-color: #ffffff;
 }
 
 /* Media Queries */
@@ -120,9 +129,10 @@ body, html, #root {
   .nav-links button {
     margin: 0.5rem 0;
     font-size: clamp(0.875rem, 2vw, 1rem);
-    padding: 0.75rem; /* Larger touch target */
-    width: 100%; /* Full-width buttons for mobile */
+    padding: 0.75rem;
+    width: 100%;
     text-align: left;
+    border-radius: 4px;
   }
 
   .floating-buttons {
@@ -134,6 +144,7 @@ body, html, #root {
   .floating-buttons button {
     padding: 0.5rem 1rem;
     font-size: 0.875rem;
+    border-radius: 9999px;
   }
 }
 
@@ -154,6 +165,7 @@ body, html, #root {
   .floating-buttons button {
     padding: 0.5rem;
     font-size: 0.75rem;
-    min-width: 36px; /* Slightly smaller for very small screens */
+    min-width: 36px;
+    border-radius: 9999px;
   }
 }
