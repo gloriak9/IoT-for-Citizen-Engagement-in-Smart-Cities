@@ -42,8 +42,11 @@ body, html, #root {
   border: none;
   color: rgb(0, 0, 0);
   cursor: pointer;
-  font-size: clamp(0.875rem, 2vw, 1.125rem); /* Slightly larger minimum */
-  padding: 0.5rem; /* Add padding for touch targets */
+  font-size: clamp(0.875rem, 2vw, 1.125rem);
+  padding: 0.5rem;
+  display: flex;
+  align-items: center; /* Ensures icons inside button align with text */
+  gap: 0.25rem; /* Optional: spacing between icon and text */
 }
 
 .nav-links button:hover {
