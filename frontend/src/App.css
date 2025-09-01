@@ -15,20 +15,19 @@ body, html, #root {
   width: 100%;
 }
 
+/* Navbar styling */
 .navbar {
   background-color: #2cb67d;
   color: rgb(0, 0, 0);
-  padding: 0.5rem 1rem; /* Reduced padding to fit within 15vh */
+  padding: 1rem;
   display: flex;
-  justify-content: start;
+  justify-content: space-between;
   align-items: center;
-  height: 15vh; /* 15% of viewport height */
-  min-height: 60px; /* Prevent navbar from becoming too small */
-  flex-wrap: nowrap; /* Allow content to wrap if needed */
-  box-sizing: border-box; /* Ensure padding is included in height */
+  flex-wrap: wrap;
 }
+
 .logo-text {
-  font-size: clamp(1rem, 2vw, 1.5rem);
+  font-size: clamp(1.25rem, 2.5vw, 1.75rem);
   font-weight: bold;
 }
 
