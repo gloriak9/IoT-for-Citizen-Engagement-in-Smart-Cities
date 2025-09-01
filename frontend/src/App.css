@@ -19,15 +19,15 @@ body, html, #root {
 .navbar {
   background-color: #2cb67d;
   color: rgb(0, 0, 0);
-  padding: 1rem;
+  padding: 1rem 1rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  flex-wrap: wrap;
+  height: 40px;
 }
 
 .logo-text {
-  font-size: clamp(1.25rem, 2.5vw, 1.75rem);
+  font-size: clamp(1.5rem, 2.5vw, 2.25rem);
   font-weight: bold;
 }
 
