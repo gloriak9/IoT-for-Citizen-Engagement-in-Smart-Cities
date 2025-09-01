@@ -11,16 +11,7 @@ export const toolRegistry = [
     label: "📍 Comment",
     component: CommentTool,
   },
-  {
-    id: "lighting",
-    label: "💡 Light Sensor Data",
-    component: LightingTool,
-  },
-  {
-    id: "lighting-heatmap",
-    label: "🔥 Lighting Heatmap",
-    component: LightingHeatmapTool,
-  },
+
   {
     id: "feedback",
     label: "📝 Feedback",
@@ -31,6 +22,18 @@ export const toolRegistry = [
     id: "poll",
     label: "📊 Poll",          
     component: PollTool,      
+  },
+
+  {
+    id: "lighting",
+    label: "💡 Light Sensor Data",
+    component: LightingTool,
+  },
+  
+  {
+    id: "lighting-heatmap",
+    label: "🔥 Lighting Heatmap",
+    component: LightingHeatmapTool,
   },
 
   // You can add more tools here!

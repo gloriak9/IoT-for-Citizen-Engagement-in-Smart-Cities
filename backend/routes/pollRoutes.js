@@ -1,30 +1,36 @@
-// --- Backend: routes/polls.js ---
-const express = require("express");
+const express = require('express');
+const multer = require('multer');
+const Poll = require('../models/Poll'); // Adjust path to your Poll model
+
 const router = express.Router();
-const Poll = require("../models/Poll");
 
-// Handle vote submission
-// routes/pollRoutes.js
-router.patch('/:id', async (req, res) => {
-  const { vote } = req.body;
-  const pollId = req.params.id;
+// Only handle text fields, no file upload
+const upload = multer({ storage: multer.memoryStorage() });
 
+router.post('/', upload.none(), async (req, res) => {
   try {
-    const poll = await Poll.findById(pollId);
-    if (!poll) return res.status(404).json({ error: "Poll not found" });
+    const {
+      question,
+      answer,
+      name,
+      email,
+      appVersion
+    } = req.body;
 
-    if (!poll.votes) poll.votes = {};
-
-    poll.votes[vote] = (poll.votes[vote] || 0) + 1;
+    const poll = new Poll({
+      question,
+      answer,
+      name,
+      email,
+      appVersion
+    });
 
     await poll.save();
-    res.json({ message: "Vote recorded", poll });
+    res.status(201).json({ message: 'Poll response saved successfully', poll });
   } catch (err) {
-    console.error("Error voting:", err);
-    res.status(500).json({ error: "Server error" });
+    console.error("Save failed:", err.message, err.errors);
+    res.status(400).json({ error: err.message, details: err.errors });
   }
 });
-
-
 
 module.exports = router;
