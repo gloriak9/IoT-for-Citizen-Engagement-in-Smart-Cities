@@ -17,7 +17,6 @@ function App() {
           <div className="nav-links">
             <Link to="/"><button><MapPinIcon /> Map</button></Link>
             <Link to="/dashboard"><button><ChartColumnIcon /> Dashboard</button></Link>
-            <button><InfoIcon /> Info</button>
           </div>
         </nav>
 
