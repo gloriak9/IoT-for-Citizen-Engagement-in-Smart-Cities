@@ -26,12 +26,9 @@ body, html, #root {
   flex-wrap: nowrap;
 }
 
-.logo-text {
+.nav-links {
   font-size: clamp(1.25rem, 2.5vw, 1.75rem);
   font-weight: bold;
-}
-
-.nav-links {
   display: inline;
   align-items: center;
   flex-wrap: nowrap;
