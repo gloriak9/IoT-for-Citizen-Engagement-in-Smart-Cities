@@ -13,7 +13,7 @@ function App() {
     <ToolProvider>
       <div className="app-container">
         <nav className="navbar">
-          <h1 className="logo-text">SafeWalkMunich</h1>
+          <h1 className="nav-links">SafeWalkMunich</h1>
           <div className="nav-links">
             <Link to="/"><button><MapPinIcon /> </button></Link>
             <Link to="/dashboard"><button><ChartColumnIcon /> </button></Link>
