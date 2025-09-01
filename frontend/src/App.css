@@ -37,7 +37,7 @@ body, html, #root {
   flex-wrap: nowrap;
 }
 .nav-links button {
-  margin-left: 0.75rem;
+  margin-left: 0.1rem;
   background: none;
   border: none;
   color: rgb(0, 0, 0);
@@ -46,7 +46,7 @@ body, html, #root {
   padding: 0.5rem;
   display: inline;
   align-items: center; /* Ensures icons inside button align with text */
-  gap: 0.25rem; /* Optional: spacing between icon and text */
+  gap: 0.15rem; /* Optional: spacing between icon and text */
 }
 
 .nav-links button:hover {
