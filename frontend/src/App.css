@@ -20,7 +20,7 @@ body, html, #root {
   background-color: #2cb67d;
   color: rgb(0, 0, 0);
   padding: 1rem;
-  display: flex;
+  display: inline;
   justify-content: space-between;
   align-items: center;
   flex-wrap: nowrap;
@@ -32,7 +32,7 @@ body, html, #root {
 }
 
 .nav-links {
-  display: flex;
+  display: inline;
   align-items: center;
   flex-wrap: nowrap;
 }
@@ -44,7 +44,7 @@ body, html, #root {
   cursor: pointer;
   font-size: clamp(0.875rem, 2vw, 1.125rem);
   padding: 0.5rem;
-  display: flex;
+  display: inline;
   align-items: center; /* Ensures icons inside button align with text */
   gap: 0.25rem; /* Optional: spacing between icon and text */
 }
