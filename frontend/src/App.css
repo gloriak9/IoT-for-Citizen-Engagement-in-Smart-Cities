@@ -23,7 +23,7 @@ body, html, #root {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
 }
 
 .logo-text {
@@ -34,15 +34,8 @@ body, html, #root {
 .nav-links {
   display: flex;
   align-items: center;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
 }
-
-.nav-links {
-  display: flex;
-  align-items: center;
-  flex-wrap: wrap; /* Ensure buttons wrap if needed */
-}
-
 .nav-links button {
   margin-left: 0.75rem;
   background: none;
