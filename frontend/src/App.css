@@ -24,7 +24,7 @@ body, html, #root {
   align-items: center;
   height: 15vh; /* 15% of viewport height */
   min-height: 60px; /* Prevent navbar from becoming too small */
-  flex-wrap: wrap; /* Allow content to wrap if needed */
+  flex-wrap: nowrap; /* Allow content to wrap if needed */
   box-sizing: border-box; /* Ensure padding is included in height */
 }
 .logo-text {
