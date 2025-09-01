@@ -28,7 +28,7 @@ function CommentTool() {
           console.log('pinData before sending:', pinData);
           console.log('Sending pinData:', pinData);
           addPin(pinData);
-          fetch("http://localhost:5000/api/comments", {
+          fetch("https://iot-for-citizen-engagement-in-smart.onrender.com/api/comments", {
             method: "POST",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify(pinData),
