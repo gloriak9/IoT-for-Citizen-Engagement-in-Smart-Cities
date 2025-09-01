@@ -15,8 +15,8 @@ function App() {
         <nav className="navbar">
           <h1 className="logo-text">SafeWalkMunich</h1>
           <div className="nav-links">
-            <Link to="/"><button><MapPinIcon /> Map</button></Link>
-            <Link to="/dashboard"><button><ChartColumnIcon /> Dashboard</button></Link>
+            <Link to="/"><button><MapPinIcon /> </button></Link>
+            <Link to="/dashboard"><button><ChartColumnIcon /> </button></Link>
           </div>
         </nav>
 
